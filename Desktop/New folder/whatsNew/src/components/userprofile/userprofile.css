@@ -1,0 +1,17 @@
+.change_btn {
+  color: rgb(30, 124, 213) !important;
+  cursor: pointer;
+}
+.profile-row {
+  cursor: pointer;
+  color: black;
+}
+.profile-row:hover {
+  background-color: rgb(30, 124, 213) !important;
+  color: white;
+}
+
+.whiteBg {
+  background: #f8f8f8 !important;
+  border-radius: 10px !important;
+}

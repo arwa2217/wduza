@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Timeline dropdown should match the snap shot 1`] = `
+<_default
+  currentOption="Thursday, May 7th"
+  navigateTo={[MockFunction]}
+  options={
+    Array [
+      Object {
+        "text": "Yesterday",
+      },
+      Object {
+        "text": "Last Week",
+      },
+      Object {
+        "text": "Last month",
+      },
+      Object {
+        "text": "Last Year",
+      },
+      Object {
+        "text": "The very beginning",
+      },
+      Object {
+        "text": "Most Recent",
+      },
+      Object {
+        "options": Array [
+          Object {
+            "text": "Option1",
+          },
+          Object {
+            "text": "Option2",
+          },
+        ],
+        "subNav": true,
+        "text": "Time zone, switch",
+      },
+    ]
+  }
+>
+  <styled.div>
+    <div
+      className="sc-AxjAm eUxFNP"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Thursday, May 7th
+      </button>
+      <ul
+        className=""
+      >
+        <li>
+          Jump to...
+        </li>
+        <li
+          className=""
+          key="Yesterday0"
+          onClick={[Function]}
+        >
+          Yesterday
+        </li>
+        <li
+          className=""
+          key="Last Week1"
+          onClick={[Function]}
+        >
+          Last Week
+        </li>
+        <li
+          className=""
+          key="Last month2"
+          onClick={[Function]}
+        >
+          Last month
+        </li>
+        <li
+          className=""
+          key="Last Year3"
+          onClick={[Function]}
+        >
+          Last Year
+        </li>
+        <li
+          className=""
+          key="The very beginning4"
+          onClick={[Function]}
+        >
+          The very beginning
+        </li>
+        <li
+          className=""
+          key="Most Recent5"
+          onClick={[Function]}
+        >
+          Most Recent
+        </li>
+        <li
+          className="sub-nav"
+          key="Time zone, switch6"
+          onClick={[Function]}
+        >
+          Time zone, switch
+          <Icon
+            as="i"
+            name="chevron right"
+          >
+            <i
+              aria-hidden="true"
+              className="chevron right icon"
+              onClick={[Function]}
+            />
+          </Icon>
+        </li>
+      </ul>
+    </div>
+  </styled.div>
+</_default>
+`;

@@ -1,0 +1,219 @@
+.review-container {
+  margin: auto;
+  padding-top: 18px;
+}
+
+.sub-container {
+  margin-bottom: 28px;
+  padding: 0px 16px 0px 16px;
+}
+
+.txt-input {
+  font-size: 14px;
+  line-height: 19px;
+  padding: 3.5px 0;
+  border: none;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.9);
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.txt-input:focus {
+  outline: none;
+}
+
+.lbl-text {
+  font-size: 12px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #00a95b;
+  margin-bottom: 4px;
+}
+
+.txt-area {
+  font-size: 14px;
+  line-height: 100%;
+  /* color: rgba(0, 0, 0, 0.4); */
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  padding: 8px;
+  width: 100%;
+  height: 108px;
+}
+
+.txt-box {
+  padding: 8px 0px 0;
+  display: flex;
+}
+
+.txt-area:focus {
+  outline: none;
+}
+
+.ddp-container > .dropdown-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 120px;
+  height: 32px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  background: #fff;
+}
+/* .ddp-container-text:hover {
+  color: rgba(0, 0, 0, 0.9) !important;
+} */
+.ddp-container-text {
+  font-size: 14px !important;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.9);
+  padding: 4px 8px !important;
+}
+
+.ddp-container-text::after {
+  border: solid #00000066;
+  border-width: 0 1px 1px 0;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  margin-top: -4px;
+}
+
+.ddp-container-text:hover,
+.show > .btn-success.dropdown-toggle,
+.btn-success:not(:disabled):not(.disabled):active {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.ddp-container-text:focus,
+.ddp-container-text:visited {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.ddp-container .btn-success:hover,
+.btn-success:focus {
+  color: #212529;
+}
+
+.ddp-rw-item {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 7px 7px 6px;
+  color: rgba(0, 0, 0, 0.4);
+  height: 32px;
+  width: 118px;
+}
+
+.ddp-item:hover {
+  background: #f0fbf5 !important;
+  color: #000000 !important;
+}
+
+.ddp-menu-box {
+  background: #ffffff !important;
+  border: 1px solid #cccccc !important;
+  box-sizing: border-box !important;
+  border-radius: 0px 0px 4px 4px !important;
+  padding: 0px !important;
+  margin-top: -2px !important;
+}
+
+.ddp-render {
+  margin: 0px 16px;
+  font-size: 14px;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.exp-box {
+  display: flex;
+}
+
+.btn-container {
+  display: flex;
+  position: relative;
+}
+
+.btn-container-left {
+  width: 50%;
+}
+
+.btn-text2 {
+  width: 80px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 100%;
+  align-items: center;
+  text-align: center;
+  background: #ffffff;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.btn-container-right {
+  position: absolute;
+  right: 0;
+  display: flex;
+}
+
+.btn-text {
+  width: 80px;
+  opacity: 0.4;
+  border-radius: 4px;
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 100%;
+  align-items: center;
+  text-align: center;
+  background: #ffffff;
+  margin-left: 8px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.btn-enabled {
+  background: #ffffff;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.btn-disabled {
+  background: #03bd5d;
+  color: #ffffff;
+}
+
+.btn-text:hover,
+.btn-text2:hover {
+  background: #ffffff !important;
+  color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.btn-success.dropdown-toggle:focus {
+  box-shadow: none !important;
+}
+
+.ddp-container.review-send-dropdown.show > .btn-success.dropdown-toggle,
+.ddp-container.review-send-dropdown
+  .btn-success:not(:disabled):not(.disabled).active,
+.ddp-container.review-send-dropdown
+  .btn-success:not(:disabled):not(.disabled):active {
+  color: #00a95b;
+  background-color: transparent;
+  border: 1px solid #cccccc;
+}

@@ -1,0 +1,11 @@
+export const CommonConstants = {
+  MOBILE_SCREEN_WIDTH: 768,
+};
+export const RECIPIENT_NAME_MAX_LENGTH = 64;
+export const RECIPIENT_NAME_MIN_LENGTH = 2;
+export const RECIPIENT_EMAIL_MAX_LENGTH = 90;
+export const RECIPIENT_EMAIL_MIN_LENGTH = 2;
+export const RECIPIENT_PASSCODE_MAX_LENGTH = 16;
+export const RECIPIENT_PASSCODE_MIN_LENGTH = 4;
+export const MESSAGE_MAX_LENGTH = 10000;
+export const SUBJECT_MAX_LENGTH = 300;

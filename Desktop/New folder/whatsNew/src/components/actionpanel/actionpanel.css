@@ -1,0 +1,40 @@
+.customColor {
+  color: #2e2424 !important;
+}
+
+.actionPanelColor {
+  background: #eef2f7 !important;
+  color: #2e2424 !important;
+}
+
+.actionRow {
+  margin: 0 !important;
+  font-size: 12px !important;
+}
+
+.actionHeader {
+  color: #2e2424 !important;
+  margin: 0 !important;
+  font-size: 12px !important;
+}
+
+#actionPanel div.item.actionButton {
+  padding: 8px 10px;
+}
+#actionPanel div.item.actionButton:hover {
+  background: rgb(187, 184, 184);
+  font-stretch: condensed;
+}
+
+#actionPanel div.item.actionButton.active {
+  background: #fff;
+  font-stretch: condensed;
+}
+#actionPanel div.item.actionButton span {
+  width: calc(100% - 30px);
+  display: inline-block;
+}
+#actionPanel div.item.actionButton .actionIcon {
+  width: 22px;
+  margin: 0;
+}

@@ -1,0 +1,64 @@
+.discussion-list {
+  width: 100%;
+  /*height: calc(*/
+  /*  100vh - var(--discussion-list-top-bar-height) -*/
+  /*    var(--discussion-list-bottom-margin)*/
+  /*);*/
+  height: 100%;
+  background-color: #ffffff;
+  /*border-radius: 8px;*/
+  position: relative;
+}
+.hover_icon:hover .arrow_icon {
+  display: block;
+}
+.hover_icon .arrow_icon {
+  display: none;
+}
+.discussion-list-body {
+  width: 100%;
+  height: calc(
+    100vh - var(--discussion-list-top-bar-height) -
+      var(--discussion-list-header-height) -
+      var(--discussion-list-bottom-margin) - 8px
+  );
+  display: block;
+  overflow-x: hidden;
+  overflow-y: overlay;
+  position: relative;
+}
+.discussion-list-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.discussion-list-container::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+.discussion-list-container:hover::-webkit-scrollbar-thumb,
+.discussion-list-container:active::-webkit-scrollbar-thumb,
+.discussion-list-container:focus::-webkit-scrollbar-thumb,
+.discussion-list-container:focus-within::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.5);
+}
+
+.discussion-list-container:hover::-webkit-scrollbar-track,
+.discussion-list-container:active::-webkit-scrollbar-track,
+.discussion-list-container:focus::-webkit-scrollbar-track,
+.discussion-list-container:focus-within::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.discussion-list-body-item {
+  width: 100%;
+  /* height: var(--discussion-list-item-height); */
+  background-color: #ffffff;
+  /* background-color: rgb(255, 0, 162); */
+  padding: 0px !important;
+  position: relative;
+}
+
+.discussion-list-body-item.selected,
+.discussion-list-body-item.active {
+  background-color: #fbffe5;
+}

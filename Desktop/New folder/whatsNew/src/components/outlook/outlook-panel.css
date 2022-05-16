@@ -1,0 +1,24 @@
+:root {
+    --message-list-top-bar-height: 70px;
+    --message-list-header-height: 56px;
+    --message-list-item-height: 66px;
+    --message-list-bottom-margin: 15px;
+    --message-list-button-load-more: 50px;
+}
+
+.outlook-panel {
+    /* width: 400px; */
+    width: 100%;
+    height: 100%;
+    background-color: #2c2c2c;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 100%;
+
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}

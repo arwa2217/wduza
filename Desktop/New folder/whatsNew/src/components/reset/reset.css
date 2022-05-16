@@ -1,0 +1,21 @@
+.customGrid {
+  background-color: #f5f5f5 !important;
+  max-height: 100vh !important;
+  min-height: 100vh !important;
+  text-decoration-color: #333 !important;
+}
+
+.availBtn {
+  font-size: 1.3rem;
+  margin-top: 1.9rem !important;
+  border-radius: 8px;
+}
+
+.availBtn:disabled {
+  opacity: 0.7;
+}
+
+.page-container {
+  height: 100vh !important;
+  overflow-y: auto;
+}

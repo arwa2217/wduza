@@ -1,0 +1,8 @@
+{
+  "email": "john.wick@abc.com",
+  "screenName": "John Wick",
+  "companyName": "ABC Corp.",
+  "firstName": "John",
+  "lastName": "Wick",
+  "department":"test department"
+}

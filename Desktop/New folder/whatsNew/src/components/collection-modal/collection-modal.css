@@ -1,0 +1,109 @@
+.discussion-modal {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	color: #19191a;
+}
+/* Modal header */
+
+.discussion-modal .modal-header {
+	padding: 30px 40px;
+}
+
+.discussion-modal .modal-title {
+	line-height: 1;
+	font-weight: 400;
+	font-size: 20px;
+	position: relative;
+}
+.discussion-modal .modal-title .cross-image {
+	position: absolute;
+	right: 0;
+	top: -2px;
+}
+
+/* Modal body */
+
+.discussion-modal .modal-body {
+    max-height: 65vh;
+    overflow-x: hidden;
+    overflow-y: overlay;
+	padding: 20px 30px 20px;
+}
+
+@-moz-document url-prefix(){
+	.discussion-modal .modal-body {
+		overflow-y: auto;
+	}
+}
+
+/*  Modal Form */
+.discussion-modal-form > .form-group label {
+	font-size: 12px;
+	width: 100%;
+}
+
+.discussion-modal-form > .form-group .form-control {
+	height: 40px;
+	border-radius: 2px;
+}
+
+
+
+/* Modal footer */
+.discussion-modal .modal-footer {
+	padding: 20px 40px;
+	display: flex;
+	justify-content: flex-end;
+	border: none;
+}
+.discussion-modal .footer-buttons {
+	width: 130px;
+	border-radius: 2px;
+	margin: 0;
+}
+
+.footer-buttons.btn-secondary {
+	background: #999999;
+	margin-right: 10px;
+}
+
+
+/* ======================================
+	React DatePicker for Post Forward Modal
+========================================= */
+
+
+.discussion-modal .react-autosuggest__container--open .react-autosuggest__suggestions-container {
+	width: 100%;
+	top: 45px;
+}
+.discussion-modal .react-autosuggest__suggestions-list{
+	margin: 7px 0;
+}
+.discussion-modal .react-autosuggest__suggestion{
+	padding: 7px 20px;
+}
+.discussion-modal .react-autosuggest__suggestion:hover{
+	background: #F8F8F8;
+}
+.discussion-modal .react-autosuggest__suggestion:not(:first-child){
+	border: none;
+}
+.rename-collection strong{
+	display: none;
+}
+.collection-modal .modal-header {
+	display: flex!important;
+	justify-content: space-between!important;
+	padding: 20px 30px!important;
+}
+.collection-modal .modal-dialog{
+	min-width: 660px;
+}
+
+.discussion-modal .modal-title {
+	line-height: 1;
+	font-weight: 400;
+	font-size: 20px;
+	position: relative;
+}

@@ -1,0 +1,123 @@
+.outer-container {
+  margin-top: 10px;
+}
+
+.filter-box-main-container {
+  box-shadow: 0 0 4px #4c6380;
+  margin-top: 10px;
+  width: 123px;
+  height: 107px;
+  padding: 10px 12px;
+  right: 0;
+  margin-right: 34px;
+  position: absolute;
+  background-color: #ffffff;
+  z-index: 9;
+}
+
+.progress-red {
+  background-color: red !important;
+}
+
+.bg-Progress-red {
+  background-color: #03bd5d !important;
+}
+
+.text {
+  width: 83px;
+  height: 20px;
+  margin: 5px;
+  text-align: center;
+  background-color: transparent;
+  padding: 0px;
+  font-size: 12px;
+  cursor: pointer;
+  border: 1px solid #dbdfe5;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 10px;
+}
+.filter-value-display {
+  width: 96px;
+  height: 20px;
+  display: flex;
+  background-color: #03bd5d;
+  padding: 4px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 2px;
+  margin-right: 20px;
+}
+
+/* .filter-container :first-child {
+    position: absolute;
+    left : 0;
+} */
+
+.filter-button-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* .inner-container {
+    margin-top: 5px
+} */
+
+.click-to-filter {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  text-align: center;
+  width: 67px;
+  color: #000000;
+  margin-left: 10px;
+}
+
+.filter-nor {
+  height: 20px;
+  width: 20px;
+}
+
+.cross-button {
+  width: 8px;
+  height: 8px;
+  margin-left: 5px;
+}
+
+.regular-font-size {
+  font-size: 14px;
+}
+
+.small-font-size {
+  font-size: 12px;
+}
+
+.white-color {
+  color: #ffffff;
+}
+.text-gray-color {
+  color: #999999;
+}
+
+.available-data {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.default-filter-box-text {
+  color: #666666;
+  border-radius: 2px;
+}
+
+.updated-filter-box-text {
+  color: #ffffff;
+  border-radius: 2px;
+  background-color: #03bd5d;
+}

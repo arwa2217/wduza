@@ -1,0 +1,30 @@
+.outlook-mail-toolbox {
+    border: 1px solid #e5e9f0 !important;
+    border-radius: 4px;
+    padding: 4px 5px;
+    display: flex;
+    position: absolute;
+    right: 36%;
+    background-color: #ffffff;
+    z-index: 9;
+    visibility: hidden;
+}
+
+.disabled {
+    opacity: 0.4;
+    pointer-events: none;
+}
+
+.toolbox-btn {
+    height: 30px;
+    width: 30px;
+}
+
+.toolbox-btn:hover {
+    background: #ebf4ff !important;
+}
+
+.toolbox-btn:focus, .toolbox-btn:active {
+    outline: none !important;
+    box-shadow: none;
+}

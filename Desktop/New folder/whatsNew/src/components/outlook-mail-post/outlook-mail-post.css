@@ -1,0 +1,61 @@
+.Select-create-option-placeholder {
+    display: none;
+}
+.receive-input-option{
+    flex: 1;
+}
+.flex-column.border.row-option{
+    margin-top: -2px;
+}
+.flex-column.border.row-option:first-child{
+    margin-top: 0px;
+}
+.receive-label{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px !important;
+    line-height: 14px !important;
+    color: #19191A;
+}
+.receive-input{
+   border-bottom: 1px solid #DEDEDE;
+}
+
+.receive-container{
+    /*border: 1px solid #DEDEDE;*/
+    background-color: white;
+    /*padding: 20px 20px 0 20px;*/
+    padding: 20px;
+    position: relative;
+}
+
+.editor-style {
+    bottom: 0;
+    width: 98%;
+    align-self: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
+}
+.editor-newEmail{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+
+.rounded-editor-popup {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.receive-input-subject{
+    flex: 1;
+}
+.row-option{
+    border: 1px solid #DEDEDE;
+}
+.receive-buttons{
+    right: 5px;
+    /*top: 18px;*/
+    z-index: 1;
+}
+

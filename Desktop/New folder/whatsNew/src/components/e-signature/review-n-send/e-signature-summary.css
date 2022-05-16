@@ -1,0 +1,398 @@
+.container {
+  width: 350px;
+  margin: 0px;
+  overflow-y: auto;
+  border-left: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.esign-summary-container {
+  height: calc(100vh - 72px);
+  padding: 13px 16px;
+  width: 320px;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.esign-summary-container hr {
+  border-top-color: #0000000a;
+}
+
+.esignature-summary-head {
+  width: 100%;
+  padding: 0 0 13px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: start;
+}
+.esignature-title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  margin-bottom: 0;
+  color: #000000e5;
+  max-width: 150px;
+  word-break: break-word;
+}
+
+.esignature-title-sub {
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.esignature-summary-details {
+  width: 100%;
+  /* padding: 8px; */
+}
+
+.esignature-document-id {
+  font-size: 11px;
+  line-height: 21px;
+  color: #00000080;
+  min-width: 67px;
+  margin: 0;
+}
+.esignature-document-details {
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  padding: 16px 20px;
+  width: 360px;
+  height: 73px;
+}
+.esignature-document-details .esignature-document-label {
+  font-weight: 700;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+.esignature-document-recipients-header {
+  font-size: 12px;
+  line-height: 16px;
+  color: #00a95b;
+  margin-bottom: 13px;
+}
+
+.esignature-summary-name {
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 17px;
+  color: rgba(0, 0, 0, 0.9);
+  margin-bottom: 12px;
+}
+
+.badge {
+  color: #f16354;
+  border: #f16354 1px solid;
+  width: max-content;
+  height: max-content;
+  border-radius: 40px;
+  min-width: 56px;
+  padding: 0 7px;
+  font-size: 11px;
+  line-height: 14px;
+  font-weight: 400;
+}
+
+.esignature-summary-sub {
+  font-size: 13px;
+  line-height: 17px;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 12px !important;
+}
+
+.btn-class,
+.btn-class:disabled {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 7.28px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  margin: 0px 5px;
+  font-size: 12px;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 400;
+}
+
+.recipient-details {
+  margin-top: 15px;
+  align-items: flex-start;
+}
+
+.recipient-name {
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 17px;
+  color: rgba(0, 0, 0, 0.9);
+  white-space: nowrap;
+  width: 170px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: 10px;
+}
+
+.recipient-text {
+  font-size: 13px;
+  line-height: 17px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.recipient-text-status {
+  font-size: 12px;
+  line-height: 16px;
+  color: #00000080;
+  margin-bottom: 8px;
+}
+
+.upload-btn {
+  padding: 6.5px 17px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.7);
+  line-height: 134%;
+  width: 80px;
+  height: 32px;
+}
+.private-msg-btn {
+  width: 105px;
+  height: 26px;
+  padding: 5px 8px;
+  background: #03bd5d;
+  border-radius: 4px;
+  margin: 4px 0px;
+  color: white;
+  border-style: none;
+  font-size: 12px;
+}
+.upload-modal-body {
+  width: 100%;
+  padding: 10px 10px 20px 10px !important;
+  border: none !important;
+}
+.form-control-field {
+  margin-bottom: 5px;
+  background-color: #ffffff !important;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  color: rgba(0, 0, 0, 0.9);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.sign-name-image {
+  justify-content: flex-start;
+  width: calc(100% - 75px);
+  display: flex;
+}
+
+.sign-name {
+  border: none;
+  width: 100%;
+}
+
+.sign-name:hover,
+.sign-name:active,
+.sign-name:visited,
+.sign-name:focus-visible {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+.modal-void-textarea:hover,
+.modal-void-textarea:active,
+.modal-void-textarea:visited,
+.modal-void-textarea:focus-visible {
+  outline: none;
+  width: 100%;
+}
+
+.upload-file-size {
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  margin: 0 8px;
+  color: #00000080;
+  justify-content: flex-end;
+}
+
+.sign-name-err {
+  color: red;
+}
+
+.err-message {
+  color: red;
+  align-self: flex-start;
+  margin: 0em;
+}
+
+.form-check-input {
+  position: absolute;
+  margin-top: 0rem;
+}
+
+.forward-radio {
+  display: flex !important;
+  /* flex-direction: column; */
+  align-self: flex-start;
+  margin: 25px 0 20px 0 !important;
+  width: 400px;
+  align-items: baseline;
+}
+.radio-discussion {
+  margin-right: 18px;
+}
+.active-forward {
+  color: #03bd5d;
+  font-weight: 700;
+  font-size: 14px;
+}
+.forward-type {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 0px;
+  padding: 4px 0 !important;
+  height: 27px;
+}
+.selected-type {
+  margin-right: 4px;
+}
+/* .form-check-input input[type="radio"]:checked:after {
+  background-color: #00a95b;
+} */
+
+.folder-radio-btn {
+  margin-top: 12px;
+}
+
+.modal-input-text {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  width: 100%;
+  margin: 15px 0px;
+}
+
+.modal-textarea {
+  width: 100%;
+  height: 92px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.share-body {
+  height: 15rem;
+  justify-content: center;
+}
+.create-btn-diasbled {
+  opacity: 0.5;
+}
+.create-btn-diasbled {
+  opacity: 0.5;
+}
+.void-document-body {
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+}
+.void-document-text {
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 14px;
+  line-height: 19px;
+  margin-bottom: 16px;
+}
+.void-document-head {
+  color: rgba(0, 0, 0, 0.9);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 0.2rem;
+}
+.void-document-info {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 1.5rem;
+}
+.send-btn {
+  color: #00a95b;
+  cursor: pointer;
+}
+
+.recipient-details .summary-recipient-border {
+  border: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 12px;
+}
+
+.recipients .recipient-details:last-child .summary-recipient-border {
+  border-bottom: 0px;
+  padding-bottom: 0;
+}
+
+.pl-12px {
+  padding-left: 12px !important;
+}
+.mt-12px {
+  margin-top: 12px !important;
+}
+.mb-12px {
+  margin-bottom: 12px !important;
+}
+
+.modal-void-textarea {
+  width: 400px;
+  height: 108px;
+  font-size: 14px;
+  border: 1px solid rgba(245, 245, 245, 1);
+  color: rgba(0, 0, 0, 0.9);
+  resize: none;
+  box-sizing: border-box;
+  border-radius: 4px;
+  line-height: 19px;
+  padding: 8px;
+  display: flex;
+}
+.date-time-separator {
+  width: 12px;
+  height: 0px;
+  border-left: 1px solid rgba(0, 0, 0, 0.08);
+  margin: 0px 8px;
+}
+
+/* .modal-void-header {
+  margin-bottom: 20px !important;
+  line-height: 20.17px !important;
+} */
+
+.modal-body-void {
+  padding-top: 25px !important;
+  padding-bottom: 16px !important;
+}
+.void-document-body .char-length {
+  /* padding-top: 6px; */
+  color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}

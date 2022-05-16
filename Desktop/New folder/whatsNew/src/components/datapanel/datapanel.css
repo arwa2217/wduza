@@ -1,0 +1,260 @@
+.customRow {
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+  margin: 0 !important;
+  font-size: 0.8rem !important;
+}
+
+.infoIcon {
+  padding-left: 64px !important;
+}
+
+.companyList {
+  padding-top: 32px !important;
+  margin: 0 !important;
+  font-size: 0.7rem !important;
+}
+
+.user-notifications {
+  min-width: 320px;
+  text-transform: initial;
+}
+.notification-header {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e5e9f0;
+  cursor: default;
+}
+.notification-header a {
+  font-size: 12px;
+  cursor: pointer;
+}
+.notification-body {
+  min-height: 324px;
+  max-height: 462px;
+  overflow-y: auto;
+  line-height: 1;
+  border-bottom: 1px solid #e5e9f0;
+}
+
+@media screen and (max-width: 1400px) {
+  .notification-body {
+    max-height: 65vh;
+  }
+}
+
+.user-notifications .dropdown-item {
+  width: 100%;
+  overflow: hidden;
+  list-style: none;
+  padding: 12px 16px 12px;
+  position: relative;
+  min-width: 320px;
+}
+.user-notifications .dropdown-item:after {
+  display: block;
+  content: "";
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.08);
+  position: absolute;
+  bottom: 0;
+  margin-left: 55px;
+  margin-right: 16px;
+  width: calc(100% - 87px);
+}
+span.notification-img .green-dot {
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+.dropdown-item.active {
+  background: rgba(3, 189, 93, 0.07);
+  /*#f0fbf5*/
+  cursor: pointer;
+}
+.user-notifications .notification-img {
+  min-width: 44px;
+  float: left;
+  position: relative;
+  text-align: center;
+  border-radius: 100%;
+  margin-right: 10px;
+  padding-left: 12px;
+}
+.user-notifications .notification-img > img {
+  object-fit: cover;
+  width: 32px;
+  height: 32px;
+}
+.user-notifications .notification-text {
+  overflow: hidden;
+  display: block;
+  white-space: normal;
+  width: 100%;
+}
+.user-notifications .notification-text-hide {
+  opacity: 0.3;
+}
+
+.user-notifications .notification-text > p {
+  margin-bottom: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 100%;
+  padding: 0;
+  margin-bottom: 2px;
+}
+.user-notifications .notification-text > p.mention-info,
+.user-notifications .notification-text > p.discussion-mention-info {
+  font-size: 12px;
+}
+.user-notifications .notification-time {
+  font-size: 12px;
+  color: var(--default);
+  margin-bottom: 6px;
+  display: inline-block;
+  line-height: 100%;
+}
+
+.user-notifications .notification-time:last-child,
+.user-notifications .notification-text > p:last-child {
+  margin-bottom: 0;
+}
+
+.user-notifications button:focus {
+  outline: none;
+}
+.user-notifications button.more {
+  display: block;
+  width: 320px;
+  background: #fff;
+  border: 1px solid;
+  margin: 16px auto;
+  padding: 0.35rem 0;
+}
+.user-notifications button.unread,
+.user-notifications button.read {
+  display: inline-block;
+  width: auto;
+  background: #fff;
+  border: none;
+  font-size: inherit;
+  font-family: inherit;
+  color: inherit;
+}
+.user-notifications button.read {
+  float: right;
+}
+
+.notification-footer {
+  padding: 19px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: default;
+  /* border-top: 1px solid #e5e9f0; */
+}
+.notification-footer.disabled {
+  opacity: 0.4;
+}
+.notification-wrapper {
+  display: flex;
+  height: 100%;
+}
+
+.mention-info {
+  /* padding: 5px 10px; */
+  max-width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  color: var(--grey__light);
+  font-weight: 400;
+}
+
+.text-link-disabled {
+  color: grey !important;
+  cursor: not-allowed !important;
+}
+
+.discussion-notification-body {
+  height: auto;
+
+  line-height: 1;
+}
+
+.discussion-notification-body-no-height {
+  overflow-y: visible;
+  line-height: 1;
+  min-height: 0px;
+  max-height: 80vh;
+  width: 100%;
+  padding: 35px 0 40px;
+}
+
+.discussion-notification-footer {
+  padding: 19px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.discussion-notification-footer-more {
+  padding: 19px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.discussion-notification-footer-more .disabled {
+  opacity: 0.5;
+  pointer-events: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.discussion-user-notifications {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.discussion-user-notifications > hr {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.discussion-mention-info {
+  line-height: 1.2 !important;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  color: rgba(0, 0, 0, 0.7) !important;
+  font-weight: 400;
+}
+
+.user-notifications .notification-header .filter__icon {
+  width: 24px;
+  max-width: 24px;
+  height: 24px;
+  background: url(../../assets/icons/tag-filter-grey.svg) no-repeat center
+  center;
+}
+
+.user-notifications .notification-header .filter__icon:focus,
+.user-notifications .notification-header .filter__icon:hover,
+.user-notifications .notification-header .filter__icon:active {
+  background: #f3f9f1 url(../../assets/icons/tag-filter-green.svg) no-repeat
+  center center;
+}
+
+.user-notifications .notification-header .dropdown-noti {
+  transform: translate(0px, 31px) !important;
+  width: 70px !important;
+  text-align: center;
+  min-width: 100px;
+  padding: 5px 0px 5px 0px;
+  border: 1px solid #e5e9f0;
+  box-shadow: none;
+}

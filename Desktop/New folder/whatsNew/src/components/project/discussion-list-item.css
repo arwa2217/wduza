@@ -1,0 +1,86 @@
+.discussion-list-item {
+  width: 100%;
+  height: var(--discussion-list-item-height);
+  overflow: hidden;
+  cursor: pointer;
+  z-index: -1;
+  padding: 11px 16px;
+  display: flex;
+  align-items: center;
+  min-width: 320px;
+  /* background-color: rgb(224, 244, 245); */
+}
+
+.active-item {
+  background-color: #f2f2f2;
+}
+
+.discussion-list-item-details {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  flex-direction: column;
+  width: 100%;
+  /*border-bottom: 1px solid #dedede;*/
+}
+
+.discussion-list-bookmark-btn,
+.discussion-list-bookmark-btn:focus {
+  padding: 0 !important;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  float: right;
+  line-height: 0 !important;
+}
+.discussion-list-bookmark-btn .flag {
+  display: none;
+}
+.discussion-list-item:hover .discussion-list-bookmark-btn .flag {
+  display: block;
+}
+
+.discussion-list-message > ul,
+ol {
+  padding-left: 12px;
+}
+
+.discussion-list-message > ul > li {
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
+
+.discussion-list-message > ol > li {
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
+.discussion-list-body-item .react-contextmenu {
+  background-color: white;
+  padding: 20px;
+  box-shadow: rgb(76 99 128 / 30%) 0px 0px 4px;
+  border-radius: 2px;
+  z-index: 2;
+}
+.discussion-list-body-item .react-contextmenu .react-contextmenu-item {
+  font-size: 12px;
+  color: #19191a;
+  margin-bottom: 18px;
+  cursor: pointer;
+  /*font-weight: bold;*/
+}
+.discussion-list-body-item
+  .react-contextmenu
+  .react-contextmenu-item[aria-disabled="true"] {
+  opacity: 0.5;
+}
+.discussion-list-body-item
+  .react-contextmenu
+  .react-contextmenu-item[aria-disabled="false"]:hover {
+  color: #18b263;
+}
+.discussion-list-body-item
+  .react-contextmenu
+  .react-contextmenu-item:last-child {
+  margin-bottom: 0;
+}

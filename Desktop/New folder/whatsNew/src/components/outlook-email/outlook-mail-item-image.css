@@ -1,0 +1,65 @@
+.image-wrapper {
+    position: relative;
+    cursor: pointer;
+}
+
+.image-wrapper:hover .image-des-wrapper {
+    visibility: visible;
+}
+
+.image-wrapper:hover .image-item {
+    opacity: 0.5;
+}
+
+.image-item {
+    width: 100%;
+    height: 128px;
+    object-fit: cover;
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+}
+
+.image-des-wrapper {
+    position: absolute;
+    bottom: 0;
+    visibility: hidden;
+    background-color: #000000;
+    margin-left: 1px;
+    height: 50px;
+    width: calc(100% - 2px);
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+;
+}
+
+.image-description {
+    color: #FFFFFF;
+    width: calc(100% - 10px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.media-video {
+    height: 235px !important;
+}
+.media-video .poster > div{
+    background:transparent;
+}
+.media-video .poster > div > div{
+    border: 3px solid white;
+    border-radius: 100%;
+    background-color: rgba(0,0,0,0.25)!important;
+    padding: 5px!important;
+}
+
+.media-video .poster > div img{
+    display: none;
+}
+.media-video .video-react-controls .video-react-more .video-react-menu >a[download="video"]{
+    display:none;
+}

@@ -1,0 +1,450 @@
+.task-modal {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #19191a;
+}
+.task-modal .modal-dialog {
+  max-width: 560px;
+}
+
+/* Modal header */
+
+.task-modal .modal-header {
+  padding: 31.5px 40px;
+}
+
+.task-modal .modal-title {
+  line-height: 1;
+  font-weight: 400;
+  font-size: 20px;
+  position: relative;
+}
+.task-modal .modal-title .cross-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* Modal body */
+
+.task-modal .modal-body {
+  padding: 20px 40px 10px;
+}
+
+/*  Modal Form */
+.task-modal-form > .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.task-modal-form > .task-status-group {
+  margin-bottom: 15px;
+}
+.task-modal-form > .form-group label {
+  font-size: 12px;
+  width: 100%;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.task-modal-form > .form-group .form-control {
+  height: 40px;
+  border-radius: 2px;
+}
+.task-modal-form > .form-group .react-datepicker-wrapper {
+  width: 100%;
+}
+.task-modal-form > .task-add-notes,
+.task-modal-form > .task-add-notes > div {
+  margin-bottom: 0px !important;
+  min-height: 124px;
+}
+
+/* Modal Tasks buttons */
+
+.task-modal .status-buttons {
+  background-color: #ffffff;
+  border: 1px solid #dedede;
+  box-sizing: border-box;
+  border-radius: 2px;
+  margin: 0 5px 5px 0;
+  color: #666666;
+  display: inline-flex;
+  align-items: center;
+  font-size: 12px;
+  line-height: 1;
+  padding: 3px 6px;
+  min-width: 60px;
+  cursor: pointer;
+}
+
+.task-modal .status-buttons:focus {
+  outline: none;
+}
+
+.status-buttons .icons {
+  width: 10px;
+  margin-right: 3px;
+}
+
+.status-buttons.task-state {
+  background-color: #daebff !important;
+  border-color: #daebff !important;
+  color: #2d76ce !important;
+}
+.status-buttons.approval-state,
+.status-buttons.done-state {
+  background-color: #e9faf1 !important;
+  border-color: #ddf3e7 !important;
+  color: #308f65 !important;
+}
+/* .status-buttons.done-state {
+	background: #e3e6ff;
+	border-color: #e3e6ff;
+	color: #6743cc;
+} */
+.status-buttons.pending-cancel-state {
+  background-color: #fbf0c9 !important;
+  border-color: #fbf0c9 !important;
+  color: #ec801c !important;
+}
+
+/* Modal footer */
+.task-modal .modal-footer {
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  border-top: none !important;
+}
+.task-modal .footer-buttons {
+  width: 230px;
+  border-radius: 2px;
+  margin: 0;
+}
+.task-modal .footer-buttons.btn-secondary {
+  margin-right: 18px;
+}
+.footer-buttons.btn-secondary {
+  background: #999999;
+}
+/* .footer-buttons.btn-primary {
+  background-color: #03bd5d;
+} */
+
+/* ======================================
+	Task status Colors
+========================================= */
+
+/* Text colors */
+
+.task-text-todo,
+.task-text-assign,
+.task-text-inprogress {
+  color: #2d76ce !important;
+}
+.task-text-pending,
+.task-text-canceled {
+  color: #ec801c !important;
+}
+.task-text-done {
+  color: #308f65 !important;
+}
+
+/* Btn colors */
+
+
+.task-btn-inprogress {
+  /* background-color: #daebff !important; */
+  border-color: #0796FF;
+  color: #0796FF !important;
+  padding: 4px;
+  border-radius: 2px;
+}
+.task-btn-inprogress .task-dropdown path{
+  stroke: #0796FF !important;
+}
+.task-btn-todo{
+  color: #F16354 !important;
+  border: 1px solid #F16354;
+}
+
+.task-btn-todo svg {
+  margin-right: 3px;
+}
+.task-btn-todo .task-dropdown path{
+  stroke: #F16354 !important;
+}
+.task-btn-pending,
+.task-btn-canceled {
+  border-color: rgba(0, 0, 0, 0.4) !important;
+  color: rgba(0, 0, 0, 0.4);
+  padding: 4px;
+  border-radius: 2px;
+}
+.task-btn-done, .task-btn-assign {
+  border-color: #00A95B !important;
+  color: #00A95B !important;
+  padding: 4px;
+  border-radius: 2px;
+}
+.task-btn-pending svg path,
+.task-btn-canceled svg path{
+  stroke: rgba(0, 0, 0, 0.4);
+}
+.task-status  svg {
+  margin-right: 5px;
+  width: 12px;
+  height: 12px;
+}
+.task-dropdown {
+  margin-left: 4px;
+  margin-right: 0 !important;
+}
+/* Task Backgrounds */
+.task-bg-todo,
+.task-bg-assign,
+.task-bg-inprogress {
+  background-color: #eff6ff !important;
+}
+.task-bg-pending,
+.task-bg-canceled {
+  background-color: #fff8de !important;
+}
+
+.task-bg-done {
+  background-color: #e9faf1 !important;
+}
+
+/* task borders */
+
+.task-border-todo,
+.task-border-assign,
+.task-border-inprogress {
+}
+.task-border-pending,
+.task-border-canceled {
+}
+
+.task-border-done {
+}
+/* React DatePicker */
+
+.react-datepicker {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  color: #19191a;
+  border-radius: 4px;
+  background: #fff;
+  border: none;
+  box-shadow: 1px 2px 6px 2px rgba(0, 0, 0, 0.1);
+}
+
+.react-datepicker__header:not(.react-datepicker__header--has-time-select) {
+  background: #fff;
+  border: none;
+  color: #666666;
+  font-size: 12px;
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__month-text--selected,
+.react-datepicker__quarter-text--selected,
+.react-datepicker__year-text--selected,
+.react-datepicker__day--in-selecting-range .react-datepicker__day--in-range,
+.react-datepicker__month-text--in-selecting-range
+  .react-datepicker__month-text--in-range,
+.react-datepicker__quarter-text--in-selecting-range
+  .react-datepicker__quarter-text--in-range,
+.react-datepicker__year-text--in-selecting-range
+  .react-datepicker__year-text--in-range,
+.react-datepicker__month--selecting-range .react-datepicker__day--in-range,
+.react-datepicker__day--in-selecting-range,
+.react-datepicker__month-text--in-selecting-range,
+.react-datepicker__quarter-text--in-selecting-range,
+.react-datepicker__year-text--in-selecting-range,
+.react-datepicker__day--in-range,
+.react-datepicker__day--keyboard-selected {
+  background: #e9faf1;
+  color: #03bd5d;
+  font-weight: 700;
+}
+
+.react-datepicker__day--selected:hover,
+.react-datepicker__day--in-selecting-range:hover,
+.react-datepicker__day--in-range:hover,
+.react-datepicker__month-text--selected:hover,
+.react-datepicker__month-text--in-selecting-range:hover,
+.react-datepicker__month-text--in-range:hover,
+.react-datepicker__quarter-text--selected:hover,
+.react-datepicker__quarter-text--in-selecting-range:hover,
+.react-datepicker__quarter-text--in-range:hover,
+.react-datepicker__year-text--selected:hover,
+.react-datepicker__year-text--in-selecting-range:hover,
+.react-datepicker__year-text--in-range:hover,
+.react-datepicker__day--keyboard-selected {
+  background: #e9faf1;
+  color: #03bd5d;
+}
+
+.react-datepicker__close-icon::after {
+  background: transparent;
+  color: #333333;
+  font-size: 22px;
+}
+
+.react-datepicker__month {
+  margin: 0 0.4rem 0.8rem;
+}
+.react-datepicker__day-name,
+.react-datepicker__day {
+  width: 26px;
+  line-height: 26px;
+  padding: 4px;
+  box-sizing: content-box;
+  margin: 4px 0 0 !important;
+  border-radius: 50%;
+}
+
+.react-datepicker__day--keyboard-selected {
+  border-radius: 50%;
+}
+
+.react-datepicker__day:not(.react-datepicker__day--disabled):hover,
+.react-datepicker__day--keyboard-selected:hover {
+  background: #e9faf1;
+  color: #03bd5d;
+  font-weight: 700;
+  border-radius: 50%;
+}
+
+.react-datepicker__day--in-selecting-range {
+  border-radius: 0 !important;
+}
+
+.react-datepicker__day--selecting-range-start {
+  border-radius: 0;
+  border-top-left-radius: 50% !important;
+  border-bottom-left-radius: 50% !important;
+}
+
+.react-datepicker__day--selecting-range-end {
+  border-radius: 0;
+  border-top-right-radius: 50% !important;
+  border-bottom-right-radius: 50% !important;
+}
+
+.react-datepicker__day--keyboard-selected.react-datepicker__day--in-selecting-range {
+  border-top-left-radius: 50% !important;
+  border-bottom-left-radius: 50% !important;
+}
+
+.react-datepicker__day-name {
+  line-height: 1;
+  margin: 0 4px;
+}
+
+.react-datepicker__current-month,
+.react-datepicker-time__header,
+.react-datepicker-year-header {
+  font-size: 14px;
+  font-weight: normal;
+  color: #19191a;
+  margin: 10px 0 !important;
+}
+
+/* Datepicker navigation */
+.react-datepicker__navigation {
+  top: 14px;
+}
+.react-datepicker__navigation:focus {
+  outline: none;
+}
+
+.react-datepicker__navigation-icon::before,
+.react-datepicker__year-read-view--down-arrow,
+.react-datepicker__month-read-view--down-arrow,
+.react-datepicker__month-year-read-view--down-arrow {
+  border-width: 1px 1px 0 0;
+  border-color: #252534;
+}
+
+.react-datepicker-popper[data-placement^="top"]
+  .react-datepicker__triangle::before {
+  border-top-color: #0000000d;
+}
+.react-datepicker-popper[data-placement^="bottom"]
+  .react-datepicker__triangle::before,
+.react-datepicker-popper[data-placement^="bottom"]
+  .react-datepicker__triangle::after {
+  border-bottom-color: #ffffff;
+}
+.react-datepicker-popper[data-placement^="bottom"]
+  .react-datepicker__triangle::before {
+  border-bottom-color: #0000000d;
+}
+
+/* Sidebar summary dropdown */
+
+.post-task-menu-filter > .dropdown > .dropdown-menu {
+  max-width: 165px !important;
+  min-width: 142px;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  box-shadow: 0px 0px 4px rgb(76 99 128 / 30%);
+  border-radius: 2px;
+}
+
+.post-task-menu-filter > .dropdown > .dropdown-menu > .menu-header {
+  padding-left: 10px !important;
+}
+
+.post-task-menu-filter .filter-list button {
+  padding: 3px 30px 3px 5px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  margin: 0 5px 5px 0;
+}
+.post-task-menu-filter .filter-list button > img {
+  width: 10px;
+  margin-right: 3px;
+}
+
+.post-task-menu-filter .filter-list button > .close_btn {
+  position: absolute;
+  right: 10px;
+}
+
+.task-modal .user-filter {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dedede;
+  padding-left: 20px;
+}
+
+.task-modal .general-filter {
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+.task-user-filter-active {
+  background: #03bd5d !important;
+  border-color: #03bd5d !important;
+  color: #ffffff !important;
+}
+
+.file-filter-active {
+  background: #03bd5d !important;
+  border-color: #03bd5d !important;
+  color: #ffffff !important;
+  margin: 0 5px 5px 0;
+}
+
+.file-permission-filter-active {
+  margin: 0 5px 5px 0;
+}
+.task-modal-form .forward-post-wrapper.form-group {
+  margin-bottom: 20px !important;
+}

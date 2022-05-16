@@ -1,0 +1,228 @@
+.create-channel-modal > .modal-dialog {
+  max-width: 660px;
+  max-height: 660px;
+}
+.create-channel-modal .modal-content {
+  border: 0;
+  border-radius: 8px;
+}
+.create-channel-modal .modal-header {
+  width: 100%;
+  color: #252534;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 30px 30px 28px 30px;
+  border: none;
+}
+.create-channel-modal .modal-body {
+  padding: 0;
+}
+.create-channel-modal .form-wrapper {
+  padding: 0 30px;
+}
+
+.create-channel-modal .form-label {
+  font-size: 12px;
+  font-weight: 400;
+  color: #19191a;
+}
+.form-control::-webkit-input-placeholder {
+  color: black !important;
+  opacity: 0.87 !important;
+}
+.create-channel-modal .char-counter-wrapper .form-control {
+  padding-right: 40px !important;
+}
+
+.create-channel-modal .char-counter-wrapper .input-group-prepend {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  z-index: 9;
+  transform: translateY(-50%);
+}
+
+.member-list {
+  min-height: 100px;
+  max-height: 200px;
+  overflow: auto;
+  padding: 20px 40px !important ;
+}
+.member-list-item {
+  padding: 0.75rem 0;
+  border: none;
+}
+
+.member-list-item:not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.remove-member-button {
+  text-indent: -999px;
+  overflow: hidden;
+  width: 20px;
+  height: 20px;
+  border: none;
+  background: url("../../../assets/icons/close.svg") no-repeat 0 0 / 100%;
+  cursor: pointer;
+}
+
+.create-channel-control-modal .modal-header {
+  border-bottom: none;
+  font-weight: 400;
+  color: #19191a;
+  padding-top: 40px;
+  padding-left: 40px;
+  font-size: 20px;
+  border: none;
+}
+
+.create-channel-control-modal .modal-header .close {
+  font-weight: 400;
+  color: #19191a;
+  padding-right: 40px;
+  font-size: 20px;
+}
+
+.create-channel-control-modal .modal-header button:focus {
+  outline: none;
+}
+
+.create-channel-control-modal .modal-header .sub-title {
+  font-weight: 100;
+  color: #3e3f41;
+  font-size: 14px;
+  padding-top: 23px;
+  padding-right: 40px;
+}
+
+.create-channel-control-modal .modal-body {
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 14px;
+  color: #3e3f41;
+}
+
+.create-channel-control-modal .modal-body .heading-label {
+  font-weight: 400;
+  color: #19191a;
+}
+
+.create-channel-control-modal .modal-body .heading-link {
+  font-weight: 100;
+  color: #19191a;
+  padding-left: 12px;
+  text-decoration: underline;
+}
+
+.create-channel-control-modal .modal-body .data-group {
+  padding-top: 20px;
+}
+
+.create-channel-control-modal .modal-body .discussion-agreement-checkbox {
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.hr-border {
+  border: 1px solid #18b263;
+}
+
+.append-to-label {
+  display: inline-flex;
+  cursor: default;
+}
+
+.create-channel-control-modal .modal-footer {
+  padding-top: 50px;
+  border-top: none;
+}
+.cancel-btn {
+  width: 130px;
+  height: 40px;
+  background: #999999;
+  border-radius: 2px;
+  border-style: none;
+}
+
+.create-channel-control-modal .modal-footer .start-discussion {
+  background: var(--primary);
+  color: white;
+}
+
+.create-channel-modal .modal-footer {
+  padding: 40px;
+}
+
+.create-channel-modal .modal-footer .back {
+  background: #6d6f73;
+  color: white;
+}
+.user-type-error {
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 80%;
+  color: #dc3545;
+}
+
+.rename-close {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.attachment-close {
+  margin: auto !important;
+  padding: 0 !important;
+  opacity: 1;
+}
+
+.rename-modal-body {
+  margin-top: 34px;
+  overflow: hidden;
+}
+
+.rename-discussion-message {
+  margin-left: 40px;
+  width: calc(100% - 80px);
+  height: 45px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #19191a;
+}
+
+.rename-discussion-message-input {
+  margin-left: 40px;
+  width: calc(100% - 80px);
+  font-weight: 400;
+  font-size: 12px;
+  color: #19191a;
+}
+
+.create-channel-modal .btn-disabled {
+  background: #18b2634d;
+  color: #ffffff;
+}
+
+.disabled-save-btn {
+  margin-right: 30px;
+  background: rgba(24, 178, 99, 0.3) !important;
+  border-radius: 2px;
+  color: #ffffff !important;
+}
+
+.active-save-btn {
+  margin-right: 30px;
+}
+.add-people-button{
+  margin : 25px 0 30px 0;
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+}
+.add-people-button button {
+  width : 92px;
+  height : 36px;
+;
+}

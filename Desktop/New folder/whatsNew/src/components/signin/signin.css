@@ -1,0 +1,11 @@
+.customCheckbox {
+  zoom: 1.4 !important;
+  margin-left: 0.2rem !important;
+  margin-right: 0px !important;
+  border-radius: 0.3rem !important;
+  vertical-align: text-bottom;
+}
+
+.alignMiddle {
+  vertical-align: middle;
+}

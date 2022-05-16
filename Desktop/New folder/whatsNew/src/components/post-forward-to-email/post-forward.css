@@ -1,0 +1,97 @@
+.post-forward-modal {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	color: #19191a;
+}
+.post-forward-modal.post-forward-to-email-modal .modal-dialog {
+	max-width: 840px;
+}
+
+/* Modal header */
+
+.post-forward-modal .modal-header {
+	padding: 30px 40px;
+}
+
+.post-forward-modal .modal-title {
+	line-height: 1;
+	font-weight: 400;
+	font-size: 20px;
+	position: relative;
+}
+.post-forward-modal .modal-title .cross-image {
+	position: absolute;
+	right: 0;
+	top: -2px;
+}
+
+/* Modal body */
+
+.post-forward-modal .modal-body {
+    max-height: 65vh;
+    overflow-x: hidden;
+    overflow-y: overlay;
+	padding: 20px 30px 20px;
+}
+
+@-moz-document url-prefix(){
+	.post-forward-modal .modal-body {
+		overflow-y: auto;
+	}
+}
+
+/*  Modal Form */
+.post-forward-modal-form > .form-group label {
+	font-size: 12px;
+	width: 100%;
+}
+
+.post-forward-modal-form > .form-group .form-control {
+	height: 40px;
+	border-radius: 2px;
+}
+
+
+
+/* Modal footer */
+.post-forward-modal .modal-footer {
+	padding: 20px 40px;
+	display: flex;
+	justify-content: flex-end;
+	border: none;
+}
+.post-forward-modal .footer-buttons {
+	width: 130px;
+	border-radius: 2px;
+	margin: 0;
+}
+
+.footer-buttons.btn-secondary {
+	background: #999999;
+	margin-right: 10px;
+}
+
+
+/* ======================================
+	React DatePicker for Post Forward Modal
+========================================= */
+
+
+.post-forward-modal .react-autosuggest__container--open .react-autosuggest__suggestions-container {
+	width: 100%;
+	top: 45px;
+}
+.post-forward-modal .react-autosuggest__suggestions-list{
+	margin: 7px 0;
+}
+.post-forward-modal .react-autosuggest__suggestion{
+	padding: 7px 20px;
+}
+.post-forward-modal .react-autosuggest__suggestion:hover{
+	background: #F8F8F8;
+}
+.post-forward-modal .react-autosuggest__suggestion:not(:first-child){
+	border: none;
+}
+
+

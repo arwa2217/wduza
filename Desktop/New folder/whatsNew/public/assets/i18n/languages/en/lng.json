@@ -1,0 +1,1754 @@
+{
+  "monoly.label": "Monoly",
+  "home.message.label": "We reinvent how enterprises communicate",
+
+  "home": {
+    "contact": "Contact us",
+    "feature": {
+      "productive.title": "Seamless collaboration",
+      "productive.desc": "Communicate and collaborate securely, even with partners outside of your organization",
+      "trustworthy.title": "Data ownership",
+      "trustworthy.desc": "Control who has access to your data and save and exchange data from your local server",
+      "linkText": "Learn more"
+    }
+  },
+
+  "signin.label": "Sign In",
+  "signup": {
+    "label": "Sign Up",
+    "header.label": "Join the Monoly network",
+    "message.label": "Verify your email address",
+    "finish.signup.message": " Create your account settings"
+  },
+  "work.in.progress.modal": {
+    "work.in.progress": "Work In Progress",
+    "feature.is.not.yet.available": "Feature is not yet available",
+    "ok": "Ok"
+  },
+  "corporate.id.label": "Corporate Identification(CID) Code",
+  "user.id.label": "User Identification(UID) Code",
+  "company.name.label": "Corporate Name",
+  "user.email.label": "Email address",
+  "approve": "Approve",
+  "answer": "Answer",
+  "yes": "Yes",
+  "wait": "Wait",
+  "page": "Page",
+  "Join": "Join",
+  "not.join": "Not Join",
+  "no": "No",
+  "not.approve": "Not Approve",
+  "password.label": "Password",
+  "confirm.password.label": "Confirm Password",
+  "screen.name.label": "Display name",
+  "display.name.exceed": "Display name can have at most 64 chars",
+  "screen.terms-agree.label": "If you agree, please check the box. (required)",
+  "screen.terms-conditions.label": "Personal Information Collection and Usage Agreement",
+  "availability.check.label": "Availability Check",
+  "availability.check.available": "",
+  "availability.check.unavailable": "Display name already exists",
+  "available.uid": "Available UID",
+  "no.available.uid": "No UID available",
+  "available.uid.placeholder": "Enter the email address",
+  "ALL": "All",
+  "activation.status": {
+    "INIT": "Unassigned",
+    "ACTIVE": "Active",
+    "INACTIVE": "Inactive",
+    "PENDING": "Pending",
+    "ACTIVATION_FAILED": "Failed",
+    "ADMIN_BLOCKED": "Blocked",
+    "PASSWORD_LOCKED": "Password Locked",
+    "DELETE": "Delete",
+    "DELETED": "Deleted",
+    "LOCKED": "Locked"
+  },
+  "button": {
+    "back": "Back",
+    "continue": "Next",
+    "signin": "Sign In",
+    "finish.registration": "Finish Registration",
+    "reset": "Submit",
+    "update.password": "Update Password",
+    "cancel": "Cancel",
+    "ok": "OK",
+    "close": "Close",
+    "create": "Create",
+    "set": "Set",
+    "save": "Save",
+    "delete": "Delete",
+    "send": "Send",
+    "unassign": "Unassign",
+    "activate": "Activate",
+    "assign.uid": "Assign UID",
+    "add": "Add",
+    "remove": "Remove"
+  },
+  "error": {
+    "name.required": "Full name is required",
+    "cid.required": "CID is required",
+    "uid.required": "UID is required",
+    "company.name.required": "Company Name is required",
+    "email.required": "Email is required",
+    "password.required": "Password is required",
+    "terms.required": "Terms and condition check is required",
+    "confirm.password.required": "Confirm Password is required",
+    "screen.name.required": "Display name is required",
+    "password.invalid": "Password should have at least 8 Characters and combination of at least 3 of Capital Letter(s), Small Letter(s), Numbers and Special Characters",
+    "password.mismatch": "Password and Confirm Password does not match",
+    "email.pattern": "Invalid email Address",
+    "phone.pattern": "Invalid phone number",
+    "screen.name.invalid": "Display name must contain only characters with no white spaces except space b/w words",
+    "websocket.error": "We're having problems communicating with the server. Attempting to re-connect ...",
+    "network.error": "You're offline. Please check your internet connection."
+  },
+  "placeholder": {
+    "cid": "Enter CID",
+    "uid": "Enter UID",
+    "company": "Enter Company Name",
+    "email": "Enter your corporate email address",
+    "choose.password": "Choose a password (8 or more characters)",
+    "password": "",
+    "confirm.password": "Retype your password",
+    "screen.name": "We recommend using your full name",
+    "new.password": "Enter New Password"
+  },
+  "label.continue_to_have_issue": "Having trouble with registration?",
+  "signin.label.continue_to_have_issue": "Having trouble signing in?",
+  "label.contact_support": " Contact us",
+  "signin": {
+    "label": "Sign In",
+    "header.label": "Sign in to Monoly",
+    "message.label": "",
+    "email.label": "Email address",
+    "different.user.message": "Sign in with different ID",
+    "reset.password.message": "Forgot your password?",
+    "shared.computer.message": "Remember this device"
+  },
+  "email": {
+    "already.registered.message": "Entered e-mail address is already registered",
+    "already.registered.signin": "Please move to the Sign-In page",
+    "write": "Write email"
+  },
+  "register": {
+    "success.header": "Welcome to Monoly",
+    "success.content1": "We reinvent how enterprises communicate",
+    "success.content2": "",
+    "success.primary.button": "Sign In",
+    "success.secondary.button": "Back",
+    "failure.header": "Error Occurred",
+    "failure.content1": "Please try again later",
+    "failure.secondary.button": "Back"
+  },
+  "passcode.modal": {
+    "passcode.label": "Passcode*",
+    "passcode.placeholder": "Enter the passcode"
+  },
+  "signup.modal": {
+    "success.header": "Verify your email address",
+    "success.content1": "Monoly sent an email to",
+    "success.content2": "Check your inbox and click the activation link to continue.",
+    "success.content3": "If you don’t see the email, check your spam folder",
+    "success.email.message": "Resend E-mail to verify the E-mail address",
+    "success.primary.button": "Sign In",
+    "success.secondary.button": "Back",
+    "failure.uid.content1": "UID already taken",
+    "failure.uid.content2": "Please move to sign in page",
+    "failure.uid.secondary.button": "Back",
+    "failure.uid.primary.button": "Move to sign in page",
+    "failure.email.content1": "Entered e-mail address is already registered",
+    "failure.email.content2": "Please move to the Sign-In page",
+    "failure.email.secondary.button": "Back",
+    "failure.email.secondary.button.sub": "(use another E-mail address)",
+    "failure.email.primary.button": "Move to sign in page",
+    "failure.email.send.header": "Failed To Send Email",
+    "failure.email.send.content1": "Please try after sometime.",
+    "failure.email.send.secondary.button": "Back"
+  },
+  "signin.modal": {
+    "failure.header": "Sign in failed",
+    "failure.content1": {
+      "4001": "No User found with this email address",
+      "4002": "Check your email and password.",
+      "4003": "Check your email and password.",
+      "4004": "Check your email and password.",
+      "4005": "Check your email and password.",
+      "4006": "Check your email and password.",
+      "4007": "Check your email and password.",
+      "4008": "Check your email and password.",
+      "4009": "Check your email and password.",
+      "4010": "Check your email and password.",
+      "4011": "Check your email and password.",
+      "4012": "Your account has been blocked or deleted from the administrator.<br/>You can’t log in.",
+      "4013": "Your account has been blocked or deleted from the administrator.<br/>You can’t log in.",
+      "4014": "Your account has been Locked. Please connect with your administrator"
+    },
+    "failure.secondary.button": "Back"
+  },
+  "footer.copyright.message": "ⓒ 2021 Monoly. All Rights Reserved.",
+  "footer.data.message1": "Any data you share is stored on",
+  "footer.data.message2": " your organization’s servers only",
+  "channel.createChannel": {
+    "CREATE_INTERNAL_CHANNEL": "Create Internal Channel",
+    "CREATE_EXTERNAL_CHANNEL": "Create External Channel",
+    "CREATE_GUEST_CHANNEL": "Create Guest Channel",
+    "CREATE_DIRECT_CHANNEL": "Create Direct Channel",
+    "channel.actions": {
+      "join.channel": "Join a new channel",
+      "approve.authentication": "Approve authentication",
+      "action.required": "Action Required",
+      "ask": "Ask"
+    }
+  },
+  "channel.style": {
+    "details": "Details",
+    "interm": "#InterM",
+    "about": "About",
+    "members": "Members",
+    "my.saves": "My Saves",
+    "team.tags": "Team Tags",
+    "shared.files": "Shared Files"
+  },
+  "discussion": {
+    "CREATE_DISCUSSION": "Create Discussion",
+    "new.discussion": "New Discussion",
+    "search.discussion.filter": "Search",
+    "search.discussion": "Search for this discussion",
+    "created": "Created",
+    "created.success": "owner discussion created successfully",
+    "created.fail": "Data is invalid",
+    "bulk.delete.header": "Ready to delete these discussions?",
+    "bulk.delete.content": "discussions will no longer be available to members.",
+    "discussion.admin.create.content": "Discussion Admin features is created",
+    "security.monoly": {
+      "secure.connection": "Secure communication, free of 3rd party oversight",
+      "secure.file.exchange": "Secure file exchange",
+      "permission": "Set person-by-person file permissions"
+    },
+    "new.discussion.page": {
+      "page.heading": "Use discussions to align with internal and external collaborators on topics, tasks, or decisions.",
+      "monoly.security": "MONOLY SECURITY",
+      "audit.requirement": "Add requirements for auditing, extra data control, or confidentiality agreement",
+      "monoly.privacy": "Monoly will never collect or store any data shared in a discussion.",
+      "privacy.policy": "Read our privacy policy",
+      "secure.communication": "Secure communication, free of 3rd party oversight"
+    },
+    "discussion.agreement": {
+      "lock.heading": "Discussion owners can lock and archive this discussion at any time.",
+      "lock.description": "Once locked, this discussion will no longer be accessible or editable. You will be notified if and when this happens. Discussion data is owned by two organizations",
+      "permanent.delete.heading": "Discussion owners can permanently delete this discussion at any time.",
+      "permanent.delete.description": "Once deleted, this discussion will no longer be accessible. You will be notified if and when this happens. All traces of discussion data will be removed from two organizations.",
+      "advance.security.protocol": "This discussion has Advanced Security protocols. You can participate once you accept the terms of this agreement",
+      "means": "What this means for you",
+      "collaborator.invitation": " invited you as a contributor to this discussion",
+      "confidential.heading": "this discussion is confidential",
+      "confidential.description": "Do not share Information or data from this discussion with anyone outside of this discussion.",
+      "accept&join": "ACCEPT AND JOIN",
+      "decline&leave": "DECLINE AND LEAVE"
+    },
+    "list.header": {
+      "type.description": "Type discussion name here"
+    },
+    "list.item": {
+      "retain.tamper.proof": "Retain tamper-proof data on your own servers for compliance or e-discovery",
+      "retain.the.right": "Retain the right to remove all traces of discussion data from external servers"
+    },
+    "name.label": "Discussion name",
+    "region.label": "Region",
+    "description.label": "Discussion description",
+    "description.discussion": "Description Discussion",
+
+    "delete": "Delete",
+    "download": "Download",
+
+    "name.placeholder": "Discussion 1",
+    "description.placeholder": "Discussion description comes here",
+
+    "invite.label": "Invite a new member(optional)",
+    "invite.placeholder": "Enter invite email",
+    "discussion.email.owner": "Enter email of Discussion Owner",
+    "discussion.owner": "Discussion owner",
+    "discussion.owner.placeholder": "Enter the discussion owner",
+    "name.this.discussion.description": "A project is a workspace with mid to long term goal. E.g Version 2.0 Release, App Design ",
+    "invite.description": "You can invite internal and external members to a project",
+    "invited.user.type.GUEST": " is a Guest User",
+    "invited.user.type.INTERNAL": " is an Internal User",
+    "invited.user.type.should.INTERNAL": " The user should be an Internal User",
+    "invited.user.type.EXTERNAL": " is an External User",
+    "additional.controls": {
+      "title": "Additional controls (optional)",
+      "subheading": "Additional controls can be added to preserve a digital trail for auditing, legal purposes, or to delete all traces of a discussion permanently.",
+      "confidentiality.agreement": "Confidentiality agreement",
+      "require.all.to.collab.agreement": "Require all collaborators to agree to confidentiality",
+      "data.handling": "Data handling",
+      "reset": "Reset",
+      "close": "Close",
+      "lock.and.archive": "Lock and archive:",
+      "leaves.data.trail": "Leaves a data trail for auditing or e-discovery.",
+      "owner.can.this.discussion": "An owner can lock this discussion at any time",
+      "locked.discussion.is.saved": "A locked discussion is saved in a tamper-proof, read-only state on all discussion owners’ servers",
+      "delete.for.all": "Delete for all:",
+      "protects.extremely.sensitive.data": "Protects extremely sensitive data",
+      "start.discussion.button": "Start Discussion",
+      "back.button": "Back",
+      "owner.can.delete": "An owner can permanently delete this discussion at any time",
+      "deleted.discussion.is.lost": "A deleted discussion is no longer visible to any collaborators and is deleted from all servers"
+    },
+    "collection": {
+      "menu": {
+        "move": "Move discussion",
+        "duplicate": "Duplicate discussion",
+        "delete": "Delete"
+      },
+      "header": {
+        "move": "Select collection to move the discussion",
+        "duplicate": "Select collection to duplicate the discussion",
+        "delete": "Select collection to delete"
+      },
+      "button": {
+        "move": "Move",
+        "duplicate": "Duplicate",
+        "delete": "Delete",
+        "cancel": "Cancel"
+      },
+      "error": {
+        "exits": "The destination collection is already exists this discussion"
+      }
+    }
+  },
+  "account": {
+    "new.account": "Add new account",
+    "name.label": "Name",
+    "screen.name.label": "Screen name",
+    "affiliation": "Affiliation",
+    "jobtitle": "Job title",
+    "email": "Email",
+    "phone": "Phone",
+    "import.successful": "file Imported successfully",
+    "import.fail": "fail to import file",
+    "import.fail.invalid.type": "Import Failed : Only CSV files are supported",
+    "import.fail.invalid.fields": "Import Failed : Invalid data provided",
+    "assignUid": "Assign UID",
+    "activateUser": "Assign UID",
+    "deleted": "Deleted",
+    "delete.discussion": "Ready to delete these discussions?",
+    "delete.discussion.header.single": "1 discussion will no longer be available to members.",
+    "delete.discussion.header.multiple": "{{discussionCount}} discussions will no longer be available to members.",
+    "delete.account.single": "Ready to delete the user?",
+    "delete.account": "Ready to delete these users?",
+    "delete.account.title": "Account",
+    "delete.accounts.header.title": "{{userCount}} account(s) will no longer be available to members across discussion.",
+    "delete.accounts.header.failed.title": "This account is a discussion owner and cannot be deleted or blocked. Please change the owner.",
+    "name.placeholder": "Enter Name",
+    "screen.name.placeholder": "Enter Screen Name",
+    "affiliation.placeholder": "Enter Affiliation",
+    "jobtitle.placeholder": "Enter Job title",
+    "email.placeholder": "Enter Email Address",
+    "phone.placeholder": "Enter Phone Number",
+    "success.message": "Account created successfully",
+    "error.message": "Something went wrong",
+    "account.assignUid.success": "Successfully assigned UID to the selected account.",
+    "account.activateUser.success": "Successfully activated the selected account.",
+    "account.delete.success": "Successfully deleted the selected account."
+  },
+  "project": {
+    "CREATE_PROJECT": "CREATE PROJECT",
+    "project.settings": "Project setting",
+    "project": "Project"
+  },
+  "channel.Type": {
+    "INTERNAL_CHANNEL": "Internal Channel",
+    "EXTERNAL_CHANNEL": "External Channel",
+    "GUEST_CHANNEL": "Guest Channel",
+    "DIRECT_CHANNEL": "Direct Channel"
+  },
+  "user.profile": {
+    "pause_notification": "Pause Notification",
+    "disable_notification": "Push Notifications",
+    "profile": "Profile",
+    "settings": "Settings",
+    "preferences": "Preferences",
+    "help": "Help",
+    "signout": "Log out",
+    "owner": "Owner",
+    "you": "You",
+    "noNotificationsYet": "No updates yet...",
+    "user.profile.modal": {
+      "something.went.wrong": "Something went wrong",
+      "member.identification": "Member identification"
+    }
+  },
+  "create.channel.modal": {
+    "description": "Description ",
+    "optional": "optional",
+    "description.required": "Description is required",
+    "name.required": "Name is required",
+    "close": "Close",
+    "userType.different": "Guest user can't add with external user",
+    "email.required": "Email is required",
+    "title.placeholder": "#what's_the_title_of_channel?",
+    "description.placeholder": "What's this channel about?",
+    "learn.more": "Learn more",
+    "add": "Add",
+    "createChannelApiError": {
+      "4012": "This name is already taken by other user group",
+      "4014": "Request can't be processed. Member already exists.",
+      "4015": " Request Can't be processed. Invalid channel name",
+      "40014": "Request can't be processed. Member already exists"
+    }
+  },
+  "notify.byManyUsers": "{{user}} and {{count}} others ",
+  "notify.byTwoUsers": "{{user}} and {{count}} other ",
+  "notify.byUser": "{{user}} ",
+  "notify.react": "{{reacted}}",
+  "post": {
+    "post.to": "Post to {{channel}}",
+    "mentioned": "mentioned",
+    "mentioned.you": "mentioned you in a post",
+    "added.you": "invite you",
+    "removed.you": "removed you",
+    "you": "you",
+    "reacted": "reacted",
+    "edited": "edited",
+    "tagged": "tagged your post",
+    "replied": "replied your post",
+    "mentionreplied": "mentioned you in a reply",
+    "no.updates": "No updates yet.",
+    "you.in.discussion": "you in Discussion",
+    "check.later.for.new.updates": "Check back later to see new updates from your projects and discussions.",
+    "post.modal": {
+      "cancel": "Cancel",
+      "edit": "Edit",
+      "content.heading": "Edit history will be visible to all",
+      "content.description": "When you edit a post, the edit history becomes visible to all discussion participants.",
+      "label": "Don't show this message again."
+    },
+    "post.hide.modal": {
+      "cancel": "Cancel",
+      "hide": "Hide",
+      "content.heading": "You are hiding this post",
+      "content.description": "This post will be invisible to other members in this discussion. You may unhide this post later again.",
+      "label": "Don't show this message again.",
+      "unhide": "Unhide",
+      "content.hide.heading": "You are unhiding this post",
+      "content.hide.description": "This post will be visible to other members in this discussion. You may hide this post later again."
+    },
+
+    "post.history": {
+      "content.heading": "Post History",
+      "content.heading.task": "Task History",
+      "posted": "POSTED"
+    }
+  },
+  "addPeople.modal": {
+    "add.partial": "Add member : Request partly processed.",
+    "add.people": "Add members",
+    "add.person": "Add Person",
+    "email.required": "Email is required",
+    "invalid.email": "Enter the valid email",
+    "invite": "Invite",
+    "showMore": "Show More",
+    "add": "Add",
+    "close": "Close",
+    "skip.for.now": "Skip for now",
+    "email.placeholder": "Enter email address.",
+    "external.member.cant.be.added": "External members can't be added to guest discussion",
+    "guest.member.cant.be.added": "Guest members can't be added to External discussion",
+    "guest.external.member.cant.be.added": "Guest and External members can't be added together on same discussion",
+    "addMemberApiError": {
+      "4006": "No User found with this email address",
+      "4014": "Request can't be processed. Member already exists",
+      "4015": "Request can't be processed. Bad request.",
+      "2006": "Request can't be processed. Member already exists."
+    },
+    "createChannelApiError": {
+      "4001": "No User found with this email address",
+      "4015": " Request Can't be processed. Invalid channel name"
+    }
+  },
+  "removePeople.modal": {
+    "remove.people": "Are you sure to remove ",
+    "remove.question.mark": "?",
+    "company.name": "Company:",
+    "company.department": "Department:",
+    "joined": "Joined #",
+    "remove": "Remove",
+    "cancel": "Cancel",
+    "at": "at"
+  },
+  "editDesc.modal": {
+    "header": "Update Channel Description ",
+    "cancel": "Cancel",
+    "update": "Update"
+  },
+  "editTopic.modal": {
+    "header": "Update Channel Topic ",
+    "cancel": "Cancel",
+    "update": "Update"
+  },
+  "dotMenu": {
+    "delete": "Delete",
+    "edit": "Edit",
+    "more.actions": "More Actions"
+  },
+  "click.to.filter.by.tag": "Click to filter by tag",
+  "click.to.task.status": "Click to task status",
+  "decision": "Decision",
+  "question": "Question",
+  "follow-up": "Follow-up",
+  "important": "Important",
+  "postInfo": {
+    "tooltip.reaction": {
+      "add.check.reaction": "Check",
+      "add.checked.reaction": "Checked",
+      "add.plus.one.reaction": "Up one",
+      "add.minus.one.reaction": "Down one"
+    },
+    "tooltip.reply.post": "Reply",
+    "tooltip.tag.post": "Tag for team",
+    "tooltip.task.post": "Task",
+    "tooltip.save.post": "Save for me",
+    "tooltip.remove.save.post": "Remove from my save",
+    "tooltip.hide.post": "Hide post",
+    "tooltip.unhide.post": "Show",
+    "tooltip.edit.post": "Edit post",
+    "tooltip.forward.post": "Forward",
+    "tooltip.delete.post": "Delete post",
+    "tooltip.forward.post.to.email": "Forward post to email",
+    "added.to.my.saves": "Added to my saves",
+    "postTag": {
+      "select.group.tag": "Select a group tag",
+      "DECISION": "Decision",
+      "QUESTION": "Question",
+      "FOLLOW-UP": "Follow-Up",
+      "IMPORTANT": "Important"
+    },
+    "postTask": {
+      "header": "Click to task status",
+      "history.header": "Task status history"
+    },
+    "edit.cancel": "Cancel",
+    "tagged.by": "Tagged by"
+  },
+  "mention": "Mention",
+  "reaction": "Reaction",
+  "channel": "Channel",
+  "filter": "Filter",
+  "checked": "{{checkedCount}} Checked",
+  "up": "+{{upCount}}",
+  "down": "-{{downCount}}",
+  "postTime": "{{time, intlTime}}",
+  "postTime-12": "{{time, messageDateFormat}}",
+  "taskTime-12": "{{time, taskDateFormat}}",
+  "postTime-child": "{{time, messageTimeFormat}}",
+  "postTime-childUpper": "{{time, esignTimeFormat}}",
+  "tagTime": "{{date, timelineDateFormat}}",
+  "fileTime": "{{time, fileDateFormat}}",
+  "more": "more",
+  "less": "less",
+  "close": "Close",
+  "unknown.user": "",
+  "edit.to.add.desc": "Edit to add description...",
+  "loading.messages": "Loading messages",
+  "all-tags": "All Tags",
+  "loading": "Loading...",
+  "no.data.available": "No data available",
+  "preview.not.available": "Preview not available",
+  "jump.to": "Jump To...",
+  "searching": "Searching...",
+  "signoutHeader": "Signout",
+  "signoutBody": "Are you sure you want to sign out?",
+  "signoutErrorBody": "Signout failed, please try again.",
+  "signoutErrorButtonPrimary": "Ok",
+  "signoutButtonPrimary": "Sign out",
+  "signoutButtonSecondary": "Cancel",
+  "actionRequired": {
+    "join.channel": "waiting for your <b>approval to join</b> ",
+    "invited.by": "invited by ",
+    "from": "from ",
+    "authenticate.approval": "Waiting for approval to <b>Authenticate the communication history</b> of ",
+    "by": "by "
+  },
+  "reset.password": {
+    "header.label": "Forgot your password?",
+    "message.label": "Enter your corporate email address to reset your password",
+    "email.label": "Email address",
+    "email.placeholder": "Enter your email",
+    "success.header": "Password reset request sent",
+    "success.content1": "We have sent a password reset message to ",
+    "success.content2": "Please click the link in message to reset password",
+    "success.secondary.button": "Back",
+    "success.primary.button": "Move to sign in page",
+    "failure.content1": "Unable to process request",
+    "failure.content2": "Please try again later",
+    "failure.secondary.button": "Back",
+    "failure.primary.button": "Sign Up",
+    "failure.email.header": "Email not found",
+    "failure.email.content1": "Go back to reenter your email address",
+    "failure.email.content2": "or sign up with Monoly"
+  },
+  "update.password": {
+    "header.label": "Update Monoly Password",
+    "message.label": "Please Enter New Password",
+    "password.label": "New Password",
+    "confirm.password.label": "Confirm password",
+    "success.header": "Password updated successfully",
+    "success.content1": "Your password has been updated",
+    "success.content2": "Please use your new password to sign in",
+    "success.primary.button": "Sign In",
+    "success.secondary.button": "Back",
+    "failure.header": "Unable to process request",
+    "failure.content1": "Please try after sometime",
+    "failure.secondary.button": "Back",
+    "failure.primary.button": "Move to sign in page",
+    "failure.update.header": "Failed to update Password",
+    "failure.update.content1": "We were unable to update your password",
+    "failure.update.content2": "Please try again later"
+  },
+  "attachment": {
+    "deleted.static": "was deleted",
+    "delete.time": "{{date, messageDateFormat}}",
+    "you": "You",
+    "rename.label": "Rename",
+    "permissions.label": "Edit Permissions",
+    "delete.label": "Delete",
+    "view.label": "Click to view",
+    "no.preview.label": "Preview Unavailable",
+    "delete.modal.header": "Ready to delete this file?",
+    "delete.modal.body": "will no longer be available to members across discussion.",
+    "delete.modal.close": "Cancel",
+    "delete.modal.confirm": "Delete",
+    "viewed": "VIEWED",
+    "downloaded": "DOWNLOADED",
+    "viewed.count": "{{viewCount}} Viewed",
+    "downloaded.count": "{{downloadedCount}} Downloaded",
+    "download.all": "Download all"
+  },
+  "upload.modal": {
+    "file.sharing.header": "Share Files",
+    "file.prohibited": "Forward prohibited",
+    "uploading.text": "Uploading...",
+    "upload.failed.text": "Upload Failed",
+    "invalid.name.error": "Invalid file name",
+    "internal.in.header": "INTERNAL - IN OFFICE",
+    "internal.out.header": "INTERNAL - OUT OF OFFICE",
+    "external.header": "EXTERNAL",
+    "cancel.button": "Cancel",
+    "share.button": "Share",
+    "not.support.view.only": "This file doesn't support view-only mode.",
+    "sharing.limit": "Up to {{count}} files can be attached at a time.",
+    "quota.limit": "The maximum capacity has been reached.",
+    "file.count": "{{selectedFilesCount}}",
+    "view": "View only",
+    "view.download": "View & download",
+    "not.allowed": "Not allowed",
+    "ro": "RO",
+    "dl": "DL",
+    "np": "NP"
+  },
+  "share.modal": {
+    "file.sharing.header": "Share files with guest",
+    "file.prohibited": "Forward prohibit",
+    "uploading.text": "Uploading...",
+    "upload.failed.text": "Upload Failed",
+    "invalid.name.error": "Invalid file name",
+    "invalid.file.error": "Sharing is prohibited.",
+    "internal.in.header": "INTERNAL - IN OFFICE",
+    "internal.out.header": "INTERNAL - OUT OF OFFICE",
+    "external.header": "EXTERNAL",
+    "cancel.button": "Cancel",
+    "share.button": "Share",
+    "not.support.view.only": "This file doesn't support view-only mode.",
+    "sharing.limit": "Up to {{count}} files can be attached at a time.",
+    "quota.limit": "The maximum capacity has been reached.",
+    "file.count": "{{selectedFilesCount}}",
+    "view": "View only",
+    "view.download": "View & download",
+    "not.allowed": "Not allowed",
+    "ro": "RO",
+    "dl": "DL",
+    "np": "NP",
+    "expiration.date": "Expiration date",
+    "passcode": "Passcode",
+    "add.passcode": "Add passcode",
+    "add.passcode.placeholder": "Enter the passcode",
+    "add.notes": "Add notes",
+    "enter.notes": "Enter the note",
+    "next.button": "Next",
+    "add.member.label": "Add email address",
+    "add.member.placeholder": "Enter email address",
+    "share.error": "Cannot share file",
+    "footer.instruction": "If you’re having trouble clicking the button, copy and paste the URL below into your web browser."
+  },
+  "confirm.share.modal": {
+    "header": "Ready to share file",
+    "content.multiple": "Ready to share {{fileCount}} files with ",
+    "content.single": "Ready to share {{fileCount}} file with ",
+    "content2": "Expires on {{expireDate}} ({{days}} days remained)",
+    "passcode": "Passcode : {{passcode}}",
+    "share.button": "Share",
+    "back.button": "Back",
+    "expires.on": "(Expires on {{expireDate}})"
+  },
+  "delete.warning.modal": {
+    "header": "Warning {{count}}/{{total}} ",
+    "content.firstline.single": " is the owner of {{discussionCount}} discussion. ",
+    "content.firstline.multiple": " is the owner of {{discussionCount}} discussions. ",
+    "content.secondline": "Please change the owner to other member.",
+    "next.button": "Next",
+    "previous.button": "Previous",
+    "ok.button": "OK"
+  },
+  "warning.download.modal": {
+    "warning": "Warning",
+    "file.content": " files were set to view-only mode. You downloaded only",
+    "files": "files",
+    "ok.button": "Ok"
+  },
+  "file.share.status.modal": {
+    "header1": "File shared",
+    "header2": "Share failed",
+    "content1": "Your files have been shared",
+    "content2": "Something went wrong during the file share.",
+    "ok.button": "Ok"
+  },
+  "file.forward.status.modal": {
+    "header1": "File forwarded",
+    "header2": "forward failed",
+    "content1": "Your files has been forwarded",
+    "content2": "Something went wrong during the file forward.",
+    "ok.button": "Ok"
+  },
+  "setting.modal": {
+    "header": "Settings",
+    "cancel": "Cancel",
+    "save": "Save",
+    "notifications.header": "Notifications",
+    "profile": {
+      "header": "Profile",
+      "name.label": "Full name",
+      "name.placeholder": "Enter Full name",
+      "display.label": "Display name",
+      "display.placeholder": "Enter Display name",
+      "job.label": "Job title",
+      "job.placeholder": "Enter Job title",
+      "affiliation.label": "Affiliation",
+      "affiliation.placeholder": "Enter Affiliation",
+      "phone.label": "Phone number",
+      "phone.placeholder": "Enter Phone number",
+      "timezone.label": "Time zone",
+      "timezone.placeholder": "Enter Time zone",
+      "email.label": "Email address",
+      "changePassword.label": "Change Password",
+      "resetPassword.link": "Send password reset link to your email",
+      "company.label": "Company name",
+      "uid.label": "User identification (UID)",
+      "cid.label": "Company identification (CID)",
+      "version.label": "Version information",
+      "version.value": "0.12.0",
+      "language": "Language"
+    },
+    "notifications": {
+      "header": "Notifications",
+      "activity.title": "Activity",
+      "activity.all.label": "Notify me of new posts",
+      "activity.reply.label": "Notify me of mentions and reactions",
+      "activity.task.label": "Notify me of task",
+      "delivery.title": "Delivery",
+      "delivery.email.label": "Notify me via email",
+      "mark.all.as.read": "Mark all as read",
+      "activity.tag.label": "Notify me of tagged posts",
+      "activity.replies.label": "Notify me of replies to my posts"
+    },
+
+    "alerts": {
+      "2001": "Profile updated successfully"
+    }
+  },
+  "activity": "Activity",
+  "mentions": "Mentions",
+  "added.activity": "Added activity",
+  "discussion.settings": {
+    "header.label": "Add Members",
+    "discussion.name.label": "Discussion name",
+    "discussion.suggestion.label": "Choose a name that specifies the topic of this discussion, eg.\"Project Kickoff.\"",
+    "add.member.label": "Invite a new member",
+    "add.member.placeholder": "Enter invite email",
+    "save.changes.button": "Save changes"
+  },
+  "remove.toast": {
+    "body.label": "removed from this discussion",
+    "button.text": "UNDO"
+  },
+  "welcome": {
+    "welcome.project": "Welcome to",
+    "create.new.discussion": "Create a new discussion",
+    "name.discussion.and.invite": "Name the discussion and invite trusted collaborators to join"
+  },
+  "date.format": "{{date, timelineDateFormat}}",
+  "reply": "Reply",
+  "reply.count": "{{replyCount}} Reply",
+  "replies.count": "{{replyCount}} Replies",
+  "header.tooltip": {
+    "summary": "Summary",
+    "notifications": "Notifications",
+    "add.members": "Add Member(s)",
+    "delete.members": "Delete Member(s)",
+    "search": "Search",
+    "filter.read": "Read messages",
+    "filter.unread": "Unread messages",
+    "lock.discussion": "Lock Discussion",
+    "advanced.security": "Security Information",
+    "delete.discussion": "Delete Discussion",
+    "leave.discussion": "Leave Discussion",
+    "import": "Import",
+    "Export": "Export"
+  },
+  "control": {
+    "rename.discussion": "Rename",
+    "leave.discussion": "Leave"
+  },
+  "rename.discussion.modal": {
+    "body": "Enter new name for discussion",
+    "name": "Discussion name",
+    "cancel": "Cancel",
+    "close": "Close",
+    "error.length.exceed": "Discussion name can have at most 64 chars",
+    "error.length.zero": "Discussion name cannot be empty",
+    "error.name.taken": "Discussion name already taken",
+    "error.same.name": "New name cannot be same as existing name",
+    "rename": "Rename",
+    "title": "Rename Discussion : {{discussionName}}",
+    "details": "Discussion Details",
+    "tooltip": "Click to rename discussion",
+    "view.details": "Click to view discussion details"
+  },
+  "leave.discussion.modal": {
+    "body.member": "If you leave a discussion you will no longer have access to the discussion and it's contents, do you wish to continue?",
+    "body.owner": "Leaving this discussion will result in {{action}} of discussion and Members will not be able to post new content, do you wish to continue?",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "leave": "Leave",
+    "ok": "OK",
+    "title": "Leave Discussion {{discussionName}}?"
+  },
+  "delete.discussion.modal": {
+    "archive": "Archive",
+    "body.archive": "On archival of discussion all the data, all members(including you) cannot post new or edit content on the discussion, do you wish to continue?",
+    "body.delete": "This action will delete discussion data for all participants.",
+    "body.strong.warning": "This action cannot be undone.",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "title.archive": "Archive Discussion {{discussionName}}?",
+    "title.delete": "Delete Discussion {{discussionName}}?",
+    "from.all": "Delete for all participants across all organizations",
+    "from.current": "Delete for participants at my organization only",
+    "from.all.archive": "Archive for all participants across all organizations",
+    "from.current.archive": "Archive for participants at my organization only",
+    "deleting.under.process.heading": "Deleting discussion data from all participating servers...",
+    "deleting.completed.process.heading": "{{discussion}} is now deleted from all servers",
+    "deleting.completed.process.message": "All digital traces of this discussion have been securely deleted from the participating organizations’ servers. Monoly does not collect or save any of your data.",
+    "archiving.under.process.heading": "Archiving discussion data from all participating servers...",
+    "under.deletion": "Being deleted from {{orgName}}",
+    "deletion.completed": "Permanently deleted from {{orgName}}",
+    "done": "Done"
+  },
+  "error.code.message": {
+    "COMMON_ERROR": "Error occurred while processing, please try again.",
+    "NAME_TAKEN": "Rename failed: Discussion with name already exists"
+  },
+  "advanced.security.popover": {
+    "advanced.security": "Advanced Security",
+    "confidentiality.agreement": "Confidentiality agreement",
+    "confidentiality.agreement.text": "This discussion is protected by a confidentiality agreement.",
+    "delete": "Delete for all",
+    "delete.text": "This discussion can be deleted at any time by discussion owner {{creator}}.",
+    "delete.text.strong": " Once deleted, this discussion is no longer accessible.",
+    "archive": "Lock and archive",
+    "archive.text": "This discussion can be locked at any time by discussion owner {{creator}}.",
+    "archive.text.strong": "Once locked, this discussion is no longer editable."
+  },
+  "script.window": {
+    "channel.archived": "This discussion is locked.",
+    "channel.deleted": "The content of this discussion have been deleted.",
+    "channel.disabled": "You cannot post messages when unread filter is on.",
+    "task": "Task",
+    "bold": "Bold",
+    "italics": "Italics",
+    "underline": "Underline",
+    "bullet": "Bullet List",
+    "number": "Numbered List",
+    "link": "Linkify",
+    "code": "Code Block",
+    "mention": "Mention",
+    "attach": "Attach File",
+    "send": "Send Post",
+    "emoji": "Emoticon",
+    "cancel": "Cancel Edit",
+    "edit": "Edit Post",
+    "popover.title": "Choose template"
+  },
+  "account-table": {
+    "create.discussion": "create Discussion",
+    "register": "Register",
+    "assign.UID": "Assign UID",
+    "import.CSV": "Import CSV"
+  },
+  "my.notification": {
+    "exist.message": "The discussion no longer exists."
+  },
+  "discussion.deleted.modal": {
+    "header": "Notice",
+    "body": "This discussion was deleted by the owner.",
+    "button": "OK",
+    "close": "Close"
+  },
+  "channel.head.top": {
+    "add": "Add",
+    "leave": "Leave",
+    "delete": "Delete",
+    "lock": "Lock",
+    "import": "Import",
+    "export": "Export"
+  },
+  "discussion.notification": {
+    "time": "{{date, DiscussionNotifDateFormat}}",
+    "more": "More"
+  },
+  "discussion.summary": {
+    "search.panel": {
+      "no.search.result": "No search result.",
+      "try.search.on.search.bar": "Try \"Search\" on the search bar to find posts that include the keyword.",
+      "no.search.results.for.the": "No search results for the {{terms}}"
+    },
+    "unread.messages": "unread messages"
+  },
+  "admin.account": {
+    "account.management": "Account Management",
+    "manage.account": "You can manage your accounts in this page",
+    "administrator": "Administrator"
+  },
+  "password.modal": {
+    "default.password": "Set Default Password",
+    "enter.password": "Enter password",
+    "confirm.password": "Confirm password",
+    "not.matched": "Not matched"
+  },
+  "update-password-modal": {
+    "content-title1": "We have sent a password reset message to {{updatePasswordEmail}}.",
+    "content-title2": "Please click the link in message to reset password.",
+    "ok": "Ok"
+  },
+  "notification.modal": {
+    "error": "Error",
+    "close": "Close"
+  },
+  "file": {
+    "loading": "Loading...",
+    "latest": "Latest",
+    "no.latest.data": "No latest data available",
+    "older": "Older",
+    "no.updates": "No updates yet.",
+    "file.appear.here": "All files uploaded by any member of this discussion will appear here",
+    "available": "Available",
+    "header": "{{companyName}}: {{totalMemory}} In Total",
+    "my.saves": {
+      "my.saves.reference": "Try \"Save for me\" on post toolbox to keep posts here for your future reference. Only you can see them.",
+      "more": "More"
+    },
+    "tags": {
+      "tag.for.team": "Try 'Tag for team' on the post toolbox to see them here. You may also see posts that others tag."
+    },
+    "task": {
+      "task.no.data": "No tasks available"
+    },
+    "filtered.modal": {
+      "click.to.filter": "Click to filter",
+      "decision": "Decision",
+      "important": "Important",
+      "my.upload": "My Upload",
+      "my.download": "My Download",
+      "internal.in.office": "Internal-In the office",
+      "internal.out.of.office": "Internal-Out of the office",
+      "external": "External",
+      "view.only": "View-Only",
+      "downloadable": "Downloadable"
+    },
+    "attached.files.here": "There are attached files."
+  },
+  "remove.member": "If you remove a member they will no longer be able to access",
+  "remove.confirm": ". Are you sure you want to remove the user?",
+  "fetching.organizations": "Fetching organizations",
+  "channel.details": {
+    "summary": "Summary",
+    "notifications": "Notifications",
+    "members": "Members",
+    "companies": "Companies",
+    "mySaves": "My saves",
+    "tags": "Tags",
+    "files": "Files",
+    "search": "Search",
+    "tasks": "Tasks",
+    "contact": "Contact"
+  },
+  "mail.summary": {
+    "sender": "Sender",
+    "receiver": "Receiver",
+    "files": "Files"
+  },
+  "newProject": "New Project",
+  "new.app.version.available": "A newer version of App is available. To update to the newer version a page refresh is required, reload now?",
+  "user.summary": {
+    "home": "Home",
+    "whatsNew": "What's new",
+    "eSignature": "eSignature",
+    "notification.card": "Notifications",
+    "post.card": "Posts",
+    "tagged.post.card": "Tagged posts",
+    "task.card": "Tasks",
+    "cid.name": "Welcome to {{cidName}}",
+    "whats.new": "What’s new in your work.",
+    "contacts": "Contacts",
+    "notifications": "Notifications",
+    "all": "All {{count}}",
+    "invitation": "Invitations {{count}}",
+    "mention": "Mentioned {{count}}",
+    "reaction": "Reactions {{count}}",
+    "tagged": "Tagged {{count}}",
+    "replied": "Replied {{count}}",
+    "decision": "Decision {{count}}",
+    "question": "Question {{count}}",
+    "important": "Important {{count}}",
+    "follow-up": "Follow-up {{count}}",
+    "to-do": "To-Do {{count}}",
+    "assigned": "Assigned {{count}}",
+    "in-progress": "In-Progress {{count}}",
+    "pending": "Pending {{count}}",
+    "tome": "to me",
+    "byme": "by me",
+    "done": "Done {{count}}",
+    "Assigned": "Assigned",
+    "cancelled": "Cancelled {{count}}"
+  },
+  "global.search": {
+    "home": "Search all discussions",
+    "placeholder": "Search all discussions",
+    "all": "All",
+    "author": "Author",
+    "target": "Target",
+    "assigner": "(Assigner)",
+    "mentioned": "Mentioned",
+    "assignee": "Assignee",
+    "scope": "Search Scope (Optional)",
+    "tag": "Tag",
+    "my-save": "My Save",
+    "saved": "Saved",
+    "file": "Files",
+    "uploaded": "Uploaded",
+    "downloaded": "Downloaded",
+    "task": "Task",
+    "todo": "To-Do",
+    "assigned": "Assigned",
+    "in-progress": "In Progress",
+    "done": "Done",
+    "pending": "Pending",
+    "post": "Post",
+    "canceled": "Canceled",
+    "search": "Search",
+    "search.result.appear.here": "Search results are displayed here",
+    "search.discussion": "Search discussion {{discussion}}",
+    "request.approval": "Request Approval",
+    "approved": "Approved",
+    "files": "Search in Files",
+    "discussion": "Discussion",
+    "folder": "Folder"
+  },
+  "collections": {
+    "home": "Collections"
+  },
+  "task.modal": {
+    "header": "Task",
+    "title": "Task Title",
+    "assignee": "Assignee",
+    "title.placeholder": "Task Title",
+    "assignee.placeholder": "Assignee",
+    "startDate.placeholder": "Enter start Date/Time",
+    "endDate.placeholder": "Enter end Date/Time",
+    "approval": "Approval",
+    "approval.checkbox": "If task needs to get approved by owner, click here.",
+    "status": "Status",
+    "status.buttons": {
+      "todo": "To-Do",
+      "assign": "Assign",
+      "progress": "In Progress",
+      "reqApproval": "Request Approval",
+      "approved": "Approved",
+      "done": "Done",
+      "pending": "Pending",
+      "canceled": "Canceled"
+    },
+    "start.date": "Start Date/Time",
+    "end.date": "End Date/Time",
+    "add.notes": "Add notes",
+    "cancel": "Cancel",
+    "submit": "Create a new task",
+    "update": "Update task",
+    "post.to.task": "Create task from post",
+    "assign.to.me": "Assigned to me",
+    "assign.by.me": "Assigned by me",
+    "error.title": "Title is required",
+    "error.assignee": "Assignee is required",
+    "error.assigneeId": "Please enter a valid assignee",
+    "error.startTime": "Start Date/Time is invalid",
+    "error.endTime": "End Date/Time is invalid"
+  },
+  "task.history": {
+    "task": "task",
+    "a.task.prefix": "",
+    "a.task.suffix": " a task",
+    "created.a.prefix": "Created a ",
+    "created.a.suffix": "",
+    "change.status.prefix": "Changed status to ",
+    "change.status.suffix": ""
+  },
+  "post.forward.modal": {
+    "header": "Forward Post",
+    "header.outlook": "Forward To Monoly",
+    "header.forward.email": "Forward To Email",
+    "discussion.placeholder": "Type discussion name here",
+    "script.window.placeholder": "Please enter your message",
+    "cancel": "Cancel",
+    "submit": "Forward",
+    "error.discussion": "Discussion is required",
+    "error.discussionId": "Please enter a valid Discussion",
+    "error.file.prohibited": "File forwarding is prohibited"
+  },
+  "push.notifications": {
+    "title": "[Monoly]: ",
+    "new.message": "new message from {{displayName}} in {{channelName}}",
+    "reply.message": "new reply from {{displayName}} in {{channelName}}",
+    "create.task": "{{displayName}} assigned you a task in {{channelName}}",
+    "edit.task": "{{displayName}} updated a task assigned to you in {{channelName}}",
+    "mention.message": "{{displayName}} mentioned you in {{channelName}}",
+    "reaction.message": "{{displayName}} reacted({{reactionType}}) to your post in {{channelName}}",
+    "channel.add": "{{displayName}} added you to {{channelName}}",
+    "channel.add.body": "Click to visit and say Hi",
+    "channel.deleted": "{{displayName}} deleted discussion {{channelName}}",
+    "channel.deleted.body": "All content of discussion is removed",
+    "channel.archived": "{{displayName}} locked discussion {{channelName}}",
+    "channel.archived.body": "This discussion is now read-only",
+    "channel.invited": "{{displayName}} invited you to discussion {{channelName}}",
+    "channel.invited.body": "Click to view terms and join discussion",
+    "channel.tagged": "{{displayName}} tagged message in {{channelName}}",
+    "task.update.author": "Status of task created by you has been updated to {{status}}",
+    "task.update.assignee": "Status of task assigned to you has been updated to {{status}}",
+    "todo": "To-Do",
+    "assigned": "Assigned",
+    "in-progress": "In Progress",
+    "done": "Done",
+    "pending": "Pending",
+    "canceled": "Canceled"
+  },
+  "notify.task": {
+    "edited": "Edited a task ",
+    "created": "Created a task ",
+    "updated": "Updated task status "
+  },
+  "discussion.list.sub.heading": "{{name}} and {{count}} others",
+  "all.tags": "",
+  "user.post.hide": "This post was hidden by the author.",
+  "user.task.hide": "This Task was hidden by the author.",
+  "link.preview": {
+    "no.description": "Tap here to open the link.",
+    "no.preview": "Preview not available"
+  },
+  "post.forward.redirection": {
+    "heading": "No access for the discussion",
+    "description": "You need an invitation from the discussion owner to see the post.",
+    "ok": "OK"
+  },
+  "forward.indicator": "{{forwarded}} Forwarded",
+  "forward.to.email.indicator": "{{forwarded}} Forwarded to email",
+  "organization": "organisation(s)",
+  "projects": "Projects",
+  "members.from": "members from",
+  "outlook.mail.tooltip": {
+    "reply": "Reply Email",
+    "reply.all": "Reply All",
+    "forward": "Forward Email",
+    "forward.discussion": "Forward to monoly",
+    "delete": "Delete Email",
+    "log.out": "Log Out",
+    "checked": "Checked",
+    "add.contact": "Add Contact",
+    "write.mail": "Write new email"
+  },
+  "outlook.mail.head.top": {
+    "reply": "Reply",
+    "reply.all": "Reply All",
+    "forward": "Forward",
+    "delete": "Delete",
+    "leave": "Leave",
+    "summary": "Mail summary"
+  },
+  "outlook.mail": {
+    "search": "Search Email",
+    "no.data": "No data found",
+    "no.login": "You are not logged in",
+    "try.login": "Try to login",
+    "sendmail.success": "Sent new email success",
+    "save.draft.success": "Save draft success",
+    "subject": "Subject",
+    "from": "From",
+    "to": "To",
+    "cc": "Cc",
+    "bcc": "Bcc",
+    "cancel": "Cancel",
+    "save.draft": "Save draft",
+    "new.email": "New email",
+    "edit.draft": "Edit draft",
+    "you": "You",
+    "hide.recipients": "Hide recipients",
+    "show.recipients": "Show all recipients"
+  },
+  "outlook.mail.important": "Important",
+  "outlook.mail.important.high": "High",
+  "outlook.mail.important.normal": "Normal",
+  "outlook.mail.important.low": "Low",
+  "outlook.mail.draft": "[Draft]",
+  "outlook.mail.draft.description": "This message hasn't been sent",
+  "outlook.mail.mark.read": "Mark as read",
+  "outlook.mail.mark.unread": "Mark as unread",
+  "outlook.mail.mark.read.button": "Mark as unread",
+  "outlook.mail.mark.unread.button": "Mark as unread",
+  "outlook.mail.send.important": "This email was send with {{importance}} importance",
+  "outlook.mail.download.all": "Download all",
+  "outlook.mail.draft.no.preview.available": "No preview is available",
+  "outlook.mail.draft.no.preview": "(No preview message)",
+  "outlook.mail.draft.no.message": "(No message text)",
+  "outlook.mail.draft.no.subject": "(No subject)",
+  "outlook.mail.validate": {
+    "attach.max.size": "Maximum attachments are 3MB",
+    "require.mail.folder": "Please select a folder email to move"
+  },
+  "outlook.button.login": "Login",
+  "outlook.forward.post.to.email": "Forward post to Email",
+  "outlook.mail.action.multiple": {
+    "moving.email": "Moving email",
+    "conversations": "conversations",
+    "selected.conversations": "Selected {{selected}} conversations",
+    "cannot.delete": "Cannot delete. Please try again",
+    "cancel": "Cancel",
+    "ok": "Ok",
+    "menu": {
+      "delete": "Delete",
+      "flag": "Marked",
+      "unFlag": "Unmarked",
+      "read": "Mark as read",
+      "unread": "Mark as unread",
+      "move": "Move"
+    },
+    "processing": {
+      "delete": "Deleting",
+      "flag": "Marking",
+      "unFlag": "UnMarking",
+      "read": "Marking as read",
+      "unread": "Marking as unread",
+      "move": "Moving email"
+    }
+  },
+  "email-validate": {
+    "givenName.required": "Given name is required!",
+    "phone.notValid": "Phone number is not valid!",
+    "email.notValid": "Email address is not valid!",
+    "email.required": "Email address is required!",
+    "email.alreadyExits": "Email already exists",
+    "phone.alreadyExits": "Phone already exists"
+  },
+  "email-contact": {
+    "add.contact": "Add Contact",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Mobile phone",
+    "company": "Company name",
+    "cancel": "Cancel",
+    "save": "Save",
+    "ok": "Ok",
+    "newEmail": "New Email",
+    "confirmText": "Remove contact",
+    "confirmContent": "Are you sure want to delete {{contactName}} ?",
+    "confirmContentAll": "Are you sure want to delete all contact in List ?"
+  },
+  "email-filter": {
+    "All": "All",
+    "Tome": "To me",
+    "Unread": "Unread",
+    "Marked": "Marked",
+    "Attached": "Attached"
+  },
+  "advanced-search": {
+    "title": "Advanced search option",
+    "search.in": "Search in",
+    "subject": "Subject",
+    "keyword": "Keywords",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "attachments": "Attachments",
+    "clearFilter": "Clear filters",
+    "search": "Search"
+  },
+  "mailFolder": {
+    "Inbox": "Inbox",
+    "SentItem": "SentItem",
+    "Drafts": "Drafts",
+    "Deleted": "Deleted",
+    "JunkEmail": "JunkEmail",
+    "RecoverEmail": "RecoverEmail",
+    "Archive": "Archive"
+  },
+  "mail-summary-title": {
+    "Maillist": "Mail list",
+    "Member": "Member",
+    "File": "File"
+  },
+  "mail-summary-action": {
+    "DownloadAll": "Download All",
+    "noAttachments": "No Attachments",
+    "compressingFile": "Compressing File",
+    "total": "total",
+    "markAll": "Mark all as read"
+  },
+  "mail-contact": {
+    "searchContact": "Search contact",
+    "more": "more",
+    "addContact": "Add Contact",
+    "jobTitle": "Job Title",
+    "uploadImage": "Upload Image",
+    "removeContact": "Remove Contact",
+    "deleteAllContact": "Are you sure want to delete all contact in List",
+    "deleteOneContact": "Are you sure want to delete",
+    "ok": "Ok",
+    "KB": "KB",
+    "profile": "Profile",
+    "summary": "Summary",
+    "contact": "Contact"
+  },
+  "files": {
+    "menu": "Files",
+    "delete.file": "Ready to delete this file?",
+    "delete.file.message": "{{fileCount}} files will no longer be available across folder.",
+    "new.folder": "New Folder",
+    "downloadAll": "Download All",
+    "ok": "OK",
+    "count": "File management",
+    "create.folder.modal": {
+      "close": "Close",
+      "new.foldername": "Enter new name for folder",
+      "new.folder.description": "Folder description",
+      "description": "Description ",
+      "name.required": "Name is required",
+      "create.folder": "Create Folder",
+      "rename.folder": "Update Folder Details",
+      "new.file.folder": "New files folder",
+      "namePlaceholder": "Enter new name for folder",
+      "descriptionPlaceHolder": "folder description comes here.",
+      "ok": "Ok",
+      "createFolderApiError": {
+        "40024": "Folder Name is already taken"
+      },
+      "alerts": {
+        "2001": "Folder Created successfully"
+      }
+    },
+    "delete.folder.modal": {
+      "header": "Ready to delete folder?",
+      "body": "will no longer be available.",
+      "deleteFile": "Are you sure you want to delete {{fileCount}} file in the folder?",
+      "deleteFiles": "Are you sure you want to delete {{fileCount}} files in the folder?",
+      "deleteAllCheck": "Yes, delete all.",
+      "close": ""
+    },
+    "search.folder.filter": "Search for folders",
+    "search.files": "Search for this files",
+    "search.uploader": "Uploader",
+    "search.discussion": "Discussion",
+    "search.folder": "Folder",
+    "search.start.date": "Start date",
+    "search.end.date": "End date",
+    "search.filetype": "FIle type",
+    "search.all": "All",
+    "search.image": "Image",
+    "search.video.audio": " Video & Audio",
+    "search.document": "Document",
+    "search.pdf": "PDF",
+    "search.spreadSheet": "SpreadSheet",
+    "search.Presentation": "Presentation",
+    "search.other.files": " Other Files",
+    "search.activity": "Activity",
+    "search.users": "User’s",
+    "search.viewed": "Viewed",
+    "search.downloaded": "Downloaded",
+    "search.forwarded": "Forwarded",
+    "search.shared": "Shared",
+    "summary.viewed": "Viewed",
+    "summary.downloaded": "Downloaded",
+    "summary.forwarded": "Forwarded",
+    "summary.shared": "Shared",
+    "delete.modal.header": "Ready to delete this file?",
+    "delete.modal.body": "{{fileCount}} files will no longer be available across folder",
+    "delete.modal.singleFileBody": "{{fileCount}} file will no longer be available across folder/discussion",
+    "delete.modal.ownFileDeleteWarning": "File owner can only delete file.",
+    "delete.modal.confirm": "OK",
+    "delete.modal.close": "Close",
+    "delete.fail": "File delete failed",
+    "delete.success": "File deleted successfully",
+    "upload": "Upload",
+    "download": "Download",
+    "delete": "Delete",
+    "forward": "Forward",
+    "share": "Share",
+    "guestFilesShare.download.prefix": "{{inviter}} shared {{count}} files with ",
+    "guestFileShare.download.prefix": "{{inviter}} shared {{count}} file with ",
+    "guestFilesShare.download.suffix": "",
+    "guestFileShare.download.suffix": "",
+    "guestFileShare.expire": "Expires {{time, guestFileShareDateFormat}}",
+    "guestFileShare.daysRemaining": " ({{days}} days remaining)",
+    "guestFileShare.dayRemaining": " ({{days}} day remaining)",
+    "guestFileShare.cantDownload": "File can't be downloaded.",
+    "passcode.invalid": "Your passcode is invalid. Please try again.",
+    "redirection.fail": "Failed to redirect as the file is not part of any discussion"
+  },
+  "file.forward": {
+    "discussion.name": "Discussion name",
+    "folder": "Folder",
+    "discussion": "Discussion",
+    "folder.name": "Folder name",
+    "forward": "Forward",
+    "heading": "Forward to internal discussion or folder",
+    "discussion.placeholder": "Enter the discussion name",
+    "folder.placeholder": "Enter the folder name",
+    "start.date": "Start Date",
+    "end.date": "End Date",
+    "error.folder": "Enter valid folder name.",
+    "required.folder": "Folder name required.",
+    "forwarding.prohibited": "Forwarding is prohibited.",
+    "forward.error": "Can not forward file.",
+    "shared.error": "This file can't be shared.",
+    "forward.folder.error": "Can not forward on same folder.",
+    "error.folder.not.found": "Invalid Folder Name(Will not be included in Search)",
+    "error.discussion.not.found": "Invalid Discussion Name(Will not be included in Search)"
+  },
+  "e-signature": {
+    "new.signature": "New signature"
+  },
+  "admin": {
+    "account.management": {
+      "topbar.tooltip": {
+        "add": "Add User",
+        "delete": "Delete User(s)",
+        "import": "Import Users",
+        "export": "Export Users",
+        "details": "Details"
+      },
+      "topbar.text": {
+        "add": "Add",
+        "delete": "Delete",
+        "import": "Import",
+        "export": "Export",
+        "create.discussion": "Create Discussion"
+      },
+      "search.placeholder": "Search with screen name",
+      "search.label": {
+        "name": "Name",
+        "email": "Email",
+        "phone": "Phone",
+        "affiliation": "Affiliation",
+        "status": "Status"
+      },
+      "sidebar.details": {
+        "selected.list": "Selected List",
+        "user.information": "User Information",
+        "login.history": "Login History",
+        "members": "Members",
+        "discussion": "Discussion",
+        "file.folder": "File Folder"
+      },
+      "selected.list": {
+        "no.data": "No user selected"
+      },
+      "user.information": {
+        "name.label": "Name",
+        "screen.label": "Screen name",
+        "affiliation.label": "Affiliation",
+        "job.label": "Job title",
+        "email.label": "Email",
+        "phone.label": "Phone",
+        "uid.label": "UID",
+        "success.message": "Profile updated successfully",
+        "error.message": "Something went wrong",
+        "status.changed": "Status updated successfully",
+        "error.action.not.allowed": "Can not perform action on another admin user",
+        "error.internal.processing": "Core uuid update issue",
+        "error.database": "Something went wrong",
+        "error.invalid.state.transition": "can not update same status",
+        "error.discussion.owner": "can not perform action, user have some discussion",
+        "account": "Account",
+        "description": "Your account has been blocked or deleted from the administrator and logged out. You will not be able to log in next time.",
+        "description.password": "Your account has been locked and logged out. Please contact your administrator.",
+        "ok": "OK"
+      },
+      "discussion.list": {
+        "internal": "Internal",
+        "external": "External",
+        "guest": "Guest",
+        "owner": "(Owner)"
+      },
+      "login.history": {
+        "CREATED": "Created",
+        "DELETED": "Deleted",
+        "LOGGED_IN": "Login",
+        "LOGGED_OUT": "Logout",
+        "RESET_PWD": "Reset Password",
+        "PASSWORD_LOCKED": "Password Locked"
+      },
+      "user.export": {
+        "success.message": "Accounts exported to CSV",
+        "fail.message": "Failed to export accounts to csv"
+      }
+    },
+    "account.fileManagement": {
+      "files.count": "File management",
+      "topbar.tooltip": {
+        "delete": "Delete File(s)",
+        "download": "Download Files"
+      },
+      "topbar.text": {
+        "delete": "Delete",
+        "download": "Download"
+      }
+    },
+    "discussion.management": {
+      "page.title": "Discussion Management",
+      "search.placeholder": "Search with discussion name",
+      "success.message": "Discussion updated successfully",
+      "error.message": "Something went wrong, discussion not updated",
+      "success.code": {
+        "2001": "Discussion deleted successfully"
+      },
+      "error.code": {
+        "40012": "Locked discussion can't be deleted",
+        "4033": "Discussion can't be deleted",
+        "5001": "Server error"
+      },
+      "sidebar.details": {
+        "selected.list": "Selected List",
+        "discussion.information": "Discussion Information",
+        "discussion.history": "Discussion History",
+        "members": "Members",
+        "file": "File"
+      },
+      "selected.list": {
+        "no.data": "No discussion selected"
+      },
+      "members": {
+        "removed.success": "Discussion members removed"
+      },
+      "discussion.history": {
+        "CREATED": "Created",
+        "ADDED": "Added",
+        "REMOVED": "Removed",
+        "LEFT": "Left",
+        "ACCEPTED": "Accepted",
+        "DELETED": "Deleted",
+        "ARCHIVED": "Archived",
+        "SET_OWNER": "Set Owner"
+      }
+    },
+    "file.management": {
+      "search.placeholder": "Search with file name"
+    }
+  },
+  "discussion.search": {
+    "owner": "Owner",
+    "email": "Email",
+    "advanced": "Advanced",
+    "locked": "Locked",
+    "deleted": "Deleted",
+    "status": "Status",
+    "deleting": "Deleting",
+    "inactive": "Inactive",
+    "active": "Active",
+    "lockable": "Lockable",
+    "deletable": "Deletable"
+  },
+  "timeline.header": "{{time, DiscussionTimeDateFormat}}",
+  "esign": {
+    "recipients": {
+      "name": "Name",
+      "email": "Email",
+      "passcode": "Passcode",
+      "mobile": "Phone number",
+      "sms": "SMS",
+      "need.sign": "Need to sign",
+      "receives.copy": "Receives a copy",
+      "required.check": "{{key}} is mandatory",
+      "length.check": "{{key}} should be {{min}} to {{max}} chars long",
+      "no.duplicate": "Please fill in unique fields",
+      "required": "At least 1 recipient is required",
+      "email.invalid": "Email is invalid",
+      "mobile.invalid": "Contact Number is invalid",
+      "oneSignerRequired": "At least 1 recipient needs to sign",
+      "limitation": {
+        "message": "You can add up to 5 people."
+      }
+    },
+    "review": {
+      "subject": "Subject",
+      "message": "Message",
+      "enter.message": "Enter message",
+      "expiration": "Expiration",
+      "expiry.on": "Expiry on",
+      "reminders": "Reminders",
+      "leave": "Leave",
+      "back": "Back",
+      "send": "Send"
+    },
+    "private": {
+      "message": "Private message",
+      "add": "Add",
+      "close": "Close"
+    },
+    "file": {
+      "edit": "Edit"
+    },
+    "recipient": {
+      "back": "Back",
+      "leave": "Leave",
+      "next": "Next",
+      "cancel": "Cancel",
+      "ok": "OK",
+      "message": "Are you sure you want to leave this page?",
+      "order": "Order",
+      "recipient": "Recipient",
+      "set-signing": "Set signing order",
+      "sender": "Sender"
+    },
+    "verify": {
+      "title": "Void document",
+      "message": "Reason for voiding eSignature",
+      "enter.message": "Enter Message",
+      "done": "Done",
+      "passcode": {
+        "title": "Enter your passcode to view the document.",
+        "external-user-message": "You have been asked to enter a secret passcode prior to reviewing the send document. You must have received the passcode through a separate communication. Enter the code to validate to view the document.",
+        "internal-user-message": "Contact document originator if you do not know the passcode.",
+        "continue": "Continue",
+        "error": "Please enter a valid passcode"
+      },
+      "phone": {
+        "title": "Enter your phone number to view the document.",
+        "external-user-message": "A phone number is required so recipients can verify their identity using as SMS passcode. A passcode will be sent by text message. Enter the code to validate to view the document.",
+        "internal-user-message": "A passcode will be send by text message.",
+        "send": "Send",
+        "text": "Phone number",
+        "validation": "Please enter a valid phone number"
+      }
+    },
+    "history": {
+      "modal": {
+        "subject": "Subject",
+        "document": "Document",
+        "envelope": "Envelope ID",
+        "recipients": "Recipients",
+        "sent": "Sent",
+        "status": "Status",
+        "created": "Created",
+        "status-date": "Status Date",
+        "holder": "Holder",
+        "timezone": "Time Zone",
+        "time": "Time",
+        "user": "User",
+        "action": "Action"
+      }
+    }
+  },
+  "esign.forward.modal": {
+    "title": "Forward",
+    "discussion": "Discussion",
+    "folder": "Folder",
+    "forward": "Forward"
+  },
+  "prepare.documents": "Prepare Documents",
+  "page.view": "Page View",
+  "recipients.label": "Recipients",
+  "permission.message": "I agree to use ",
+  "permission.message.link": "electronic records and signatures",
+  "review.message": " Please review the documents below",
+  "sign.completed.message": "This document is now complete.",
+  "sign.void.message": "This document is now void.",
+  "finish.later": "Finish later",
+  "decline.to.sign": "Decline to sign",
+  "view.history": "View History",
+  "view.certificate(PDF)": "View Certificate(PDF)",
+  "download.signed.file": "Download",
+  "esign.table": {
+    "status": "Status",
+    "subject": "Subject",
+    "last.change": "Last Change",
+    "activity": "Activity"
+  },
+  "document.sign.modal": {
+    "close": "Close",
+    "finish": "Finish",
+    "agree": "Agree",
+    "continue": "Continue",
+    "finsih.later": "Don’t forget to finish later",
+    "all.done": "You’re all done!",
+    "come.back": "You can come back using the original link to complete the document",
+    "recive.copy": "You’ll receive a copy once everyone has signed.",
+    "visit.website": "Visit our website",
+    "ok": "Ok",
+    "signin": "Sign In"
+  },
+  "esign.table.data": {
+    "done": "done"
+  },
+  "esign.options": {
+    "sign": "Sign",
+    "resend": "Resend",
+    "download": "Download",
+    "void": "Void",
+    "delete": "Delete",
+    "correct": "Correct",
+    "decline": "Decline",
+    "forward": "Forward",
+    "share": "Share"
+  },
+  "dummy.file.name": "File Name",
+  "dummy.file.size": "0 MB",
+  "text.na": "N/A",
+  "esign.summary": {
+    "document.id": "Document ID",
+    "last.change.on": "Last change on",
+    "sent.on": "Sent on",
+    "source": "Source",
+    "review.document": "Review document",
+    "view.cert": "View certificate",
+    "recipients": "Recipients",
+    "history": "History",
+    "message": "Message",
+    "no.message": "No message has been entered."
+  },
+  "esign.modal": {
+    "message": "{{creatorName}}{{creatorEmail}} sent you a document to review and sign.",
+    "other.actions": "Other actions",
+    "void.heading": "The document has been voided",
+    "void.by": "{{name}} voided a document for the following reason :"
+  },
+  "esign.topbar": {
+    "download": "Download",
+    "delete": "Delete",
+    "forward": "Forward",
+    "share": "Share"
+  }
+}

@@ -1,0 +1,47 @@
+.rec-header-container {
+  padding: 19.5px 16px;
+  border-bottom: 1px solid #e5e5e5;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+.rec-header-title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.9);
+}
+.rec-step-count-wrapper {
+  display: flex;
+  margin-right: 7px;
+}
+.step-detail {
+  display: flex;
+  align-items: center;
+}
+.step-line {
+  display: flex;
+  align-items: center;
+  margin: 0px 16px;
+}
+.rec-step-count {
+  width: 30px;
+  height: 30px;
+  /* line-height: 30px; */
+  border-radius: 15px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0px 8px;
+  cursor: pointer;
+}
+.rec-step-count-label {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.4);
+  line-height: 134%;
+}
+.step-active {
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: 700;
+}

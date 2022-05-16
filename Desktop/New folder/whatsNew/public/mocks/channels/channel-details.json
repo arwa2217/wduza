@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "channelId": "int123456",
+      "creator": "john",
+      "creatorId": "john123456",
+      "topic": "#channelToken",
+      "createdOn": 1597659010,
+      "name": "InternalTestChannel-1",
+      "description": "John- Internal Test Channel On Monoly",
+      "type": "internal",
+      "userImg": "https://react.semantic-ui.com/images/avatar/small/elliot.jpg",
+      "members": 4
+    }
+  ]
+}

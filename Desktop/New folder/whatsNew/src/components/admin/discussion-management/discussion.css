@@ -1,0 +1,75 @@
+.discussion-history.task-header .task-ownership {
+  color: #19191a;
+  font-size: 12px;
+  line-height: 1;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+.discussion-history.task-header .task-ownership .task-assigned {
+  color: rgba(0, 0, 0, 0.5);
+  margin-left: 2px;
+}
+.discussion-history.task-header .task-ownership .task-creation-date {
+  margin-left: 7px;
+}
+
+.member-list-wrapper .member-wrapper {
+  padding: 10px 0px !important;
+}
+.member-list-wrapper .discussion-btn {
+  font-size: 12px;
+  padding: 0px !important;
+  height: 30px;
+}
+
+.member-list-wrapper .member-wrapper:hover {
+  background-color: transparent;
+}
+.member-list-wrapper .options-menu img {
+  height: 24px !important;
+  width: 24px !important;
+}
+
+.member-search {
+  display: flex;
+  align-items: center;
+  border-bottom: 0.5px solid #dedede;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.member-search img {
+  height: 15px;
+  width: 15px;
+  margin-right: 7px;
+}
+.member-search input {
+  padding: 12px 7px;
+  border: 0;
+  font-size: 14px;
+  width: 100%;
+  outline: none;
+}
+
+/* .member-info {
+  display: flex;
+  align-items: center;
+  border-bottom: 0.5px solid #dedede;
+  margin-bottom: 10px;
+  width: 100%;
+} */
+
+.task-ownership {
+  /* margin-bottom: 10px; */
+}
+.task-ownership .owner-ship-left{
+  display: flex;
+}
+.task-ownership .owner-ship-left .assigner-name{
+  font-size: 11px;
+  line-height: 134%;
+  color: #00000080;
+  padding-right: 3px;
+}
+.task-ownership .owner-ship-left img {
+  cursor: pointer;
+}

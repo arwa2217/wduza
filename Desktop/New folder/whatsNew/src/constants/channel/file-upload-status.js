@@ -1,0 +1,15 @@
+export const UploadStatus = {
+  LOADED: "LOADED",
+  INIT: "INIT",
+  PENDING: "PENDING",
+  FILES_UPLOADED: "FILES_UPLOADED",
+  UPLOAD_ERROR: "UPLOAD_ERROR",
+  DELETED: "DELETED",
+};
+
+export const FileStatsType = {
+  VIEWED: "VIEWED",
+  DOWNLOADED: "DOWNLOADED",
+  FORWARDED: "FORWARDED",
+  SHARED: "SHARED",
+};

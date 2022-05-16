@@ -1,0 +1,27 @@
+const LOAD = Symbol("LOAD");
+const LOAD_INIT = Symbol("LOAD_INIT");
+const SUBMIT = Symbol("SUBMIT");
+const NEXT = Symbol("NEXT");
+const FILE_UPLOADED = Symbol("FILE_UPLOADED");
+const FILES_UPLOADED = Symbol("FILES_UPLOADED");
+const SET_UPLOAD_ERROR = Symbol("SET_UPLOAD_ERROR");
+const HIDE_MODAL = Symbol("HIDE_MODAL");
+const RESET = Symbol("RESET");
+const UPDATE_NAME = Symbol("UPDATE_NAME");
+const DELETE_FILE = Symbol("DELETE_FILE");
+const UPDATE_TOTAL_FILES = Symbol("UPDATE_TOTAL_FILES");
+
+export {
+  LOAD,
+  LOAD_INIT,
+  SUBMIT,
+  NEXT,
+  FILE_UPLOADED,
+  FILES_UPLOADED,
+  SET_UPLOAD_ERROR,
+  HIDE_MODAL,
+  RESET,
+  UPDATE_NAME,
+  DELETE_FILE,
+  UPDATE_TOTAL_FILES,
+};

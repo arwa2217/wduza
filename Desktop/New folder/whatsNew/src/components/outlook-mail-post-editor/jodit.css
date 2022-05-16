@@ -1,0 +1,81 @@
+span.jodit-toolbar-button.jodit-toolbar-button_size_middle.jodit-toolbar-button_status_initial.jodit-toolbar-button_fullsize.jodit-ui-group__fullsize{
+	display:none;
+}
+.jodit-status-bar{
+	display:none;
+}
+.jodit-container{
+	position:relative;
+	color: black;
+	border: none !important;
+}
+.jodit-toolbar__box{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+}
+.jodit-search{
+	display:none;
+}
+.jodit-source{
+	display:none;
+}
+
+.jodit-container .jodit-workplace{
+	max-height: calc(100vh - 365px) !important;
+	overflow: hidden;
+}
+
+.jodit-toolbar__box {
+	border: none !important;
+}
+
+.jodit-ui-group {
+	background-color: white;
+}
+.jodit-toolbar-button .jodit-icon{
+	width: 24px;
+	height: 24px;
+}
+.jodit-toolbar-button .jodit-icon:hover{
+	color: red!important;
+}
+.jodit-toolbar-button{
+	min-width: 20px!important;
+	height: 20px!important;
+	background-color: transparent ;
+}
+.jodit-toolbar-button button{
+	height: 20px!important;
+	min-width: 20px!important;
+	margin-right: 5px!important;
+}
+.jodit-toolbar-button button:hover{
+	background-color: #edf6f2 !important;
+}
+.jodit-toolbar-button__button[aria-pressed="true"]{
+	background-color: #edf6f2!important;
+	fill: #6bbc98!important;
+}
+.jodit-toolbar-button__button[aria-pressed="true"] .jodit-icon{
+	fill: #6bbc98!important;
+}
+.jodit-icon{
+	fill: #c3c6cd;
+	stroke: none;
+}
+.jodit-icon:hover{
+	fill: #6bbc98;
+	stroke: none;
+}
+.jodit-wysiwyg:after{
+	content: "";
+	width: 10px;
+	height: 10px;
+	display: block;
+	position: absolute;
+	background-color: white;
+	bottom: 0;
+	right: 0;
+	z-index: 1;
+}

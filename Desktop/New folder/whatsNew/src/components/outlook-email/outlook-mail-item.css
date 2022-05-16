@@ -1,0 +1,24 @@
+.mail-item-collapse-wrapper {
+    position: relative;
+    background-color: white;
+    margin-bottom: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    height: 78px;
+}
+
+.mail-item-collapse-wrapper:hover {
+    background-color: #edebe9;
+}
+
+.mail-item-wrapper {
+    position: relative;
+    background-color: white;
+    margin-bottom: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.mail-item-wrapper:hover .outlook-mail-toolbox {
+    visibility: visible;
+}

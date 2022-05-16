@@ -1,0 +1,82 @@
+.ui.dimmer {
+  z-index: 10001 !important;
+}
+.delete-warning-container .modal-dialog-centered {
+  max-width: 560px;
+}
+.modal-head-container {
+  display: flex !important;
+  justify-content: space-between;
+  padding: 40px 40px 34px 40px;
+  border: none;
+}
+.modal-head-container .heading-title {
+  font-size: 20px;
+  color: #19191a;
+  font-weight: normal;
+}
+.modal-head-container .ok-btn,
+.next-btn,
+.prev-btn {
+  cursor: pointer;
+}
+.delete-warning-modal-content {
+  padding: 0px 40px;
+  border-bottom: 1px solid #e2e2e2;
+}
+.delete-warning-modal-content .content-title {
+  font-size: 16px;
+  color: #19191a;
+  line-height: 1.5;
+}
+.delete-warning-modal-content .content-title .email-title {
+  margin: 0px 4px 0px 4px;
+  font-weight: 700;
+}
+.delete-warning-modal .modal-content {
+  border: none;
+  padding: 0px !important;
+}
+.delete-warning-modal .modal-content .content-title {
+  color: black;
+  text-align: left;
+  margin: 0px 0px 40px 0px !important;
+  font-size: 15px;
+}
+.delete-warning-modal .modal-content .content-title,
+span.date {
+  color: var(--primary) !important;
+}
+.delete-warning-modal-footer {
+  padding: 40px;
+  border: none;
+}
+.delete-warning-modal-footer .prev-btn {
+  margin: 0;
+  width: 130px;
+  height: 40px;
+  background: var(--white);
+  border-radius: 2px;
+  cursor: pointer;
+  color: var(--primary);
+}
+.delete-warning-modal-footer .next-btn {
+  margin: 0 0 0 10px;
+  width: 130px;
+  height: 40px;
+  background: var(--white);
+  border-radius: 2px;
+  cursor: pointer;
+  color: var(--primary);
+}
+.delete-warning-modal-footer .ok-btn {
+  margin: 0 0 0 10px;
+  width: 130px;
+  height: 40px;
+  background: var(--primary);
+  border-radius: 2px;
+  cursor: pointer;
+}
+.overflow {
+  overflow-y: auto;
+}

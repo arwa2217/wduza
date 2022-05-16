@@ -1,0 +1,477 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`user actions action required should match match the snapshot 1`] = `
+<_default>
+  <styled.div>
+    <div
+      className="sc-AxirZ dnDLFs"
+    >
+      <div
+        className="required_action__header"
+      >
+        <div
+          className="required_action__dropdown"
+        >
+          <button>
+            Action Required 
+            <Icon
+              as="i"
+              floated="right"
+              name="facebook"
+            >
+              <i
+                aria-hidden="true"
+                className="facebook icon"
+                floated="right"
+                onClick={[Function]}
+              />
+            </Icon>
+          </button>
+          <ul>
+            <li
+              className="active"
+            >
+              Join a new channel
+            </li>
+            <li>
+              Approve
+            </li>
+            <li>
+              Authenticate
+            </li>
+            <li>
+              Ask
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        className="required_action__actions"
+      >
+        <Action
+          action={
+            Object {
+              "date": 1596718199844,
+              "title": "waiting for your <b>approval to join</b> #new_channel invited by @jonghoon from 11:00PM 24th May",
+              "type": "JoiningRequest",
+            }
+          }
+          key="key_0"
+        >
+          <styled.div>
+            <div
+              className="sc-AxjAm dWcxop"
+            >
+              <div
+                className="card_details"
+              >
+                <span
+                  className="action_schema"
+                >
+                  <_default
+                    type="JoiningRequest"
+                  >
+                    <span>
+                       
+                    </span>
+                  </_default>
+                </span>
+                <div
+                  className="action_content"
+                >
+                  <span
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "waiting for your <b>approval to join</b> #new_channel invited by @jonghoon from 11:00PM 24th May",
+                      }
+                    }
+                  />
+                  <_default
+                    action={
+                      Object {
+                        "date": 1596718199844,
+                        "title": "waiting for your <b>approval to join</b> #new_channel invited by @jonghoon from 11:00PM 24th May",
+                        "type": "JoiningRequest",
+                      }
+                    }
+                  />
+                </div>
+                <_default
+                  type="JoiningRequest"
+                >
+                  <div
+                    className="actions"
+                  >
+                    <button
+                      style={
+                        Object {
+                          "background": "skyblue",
+                        }
+                      }
+                    >
+                      Join
+                    </button>
+                    <button
+                      className="gray-button"
+                    >
+                      Not Join
+                    </button>
+                  </div>
+                </_default>
+              </div>
+            </div>
+          </styled.div>
+        </Action>
+        <Action
+          action={
+            Object {
+              "date": 1596718199844,
+              "title": "waiting for your approval to <b>Authenticate the communication history</b> of #old_channel by @kiwoon from 10:00 PM 23th May",
+              "type": "ApproveRequest",
+            }
+          }
+          key="key_1"
+        >
+          <styled.div>
+            <div
+              className="sc-AxjAm dWcxop"
+            >
+              <div
+                className="card_details"
+              >
+                <span
+                  className="action_schema"
+                >
+                  <_default
+                    type="ApproveRequest"
+                  >
+                    <Icon
+                      as="i"
+                      floated="right"
+                      name="facebook"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="facebook icon"
+                        floated="right"
+                        onClick={[Function]}
+                      />
+                    </Icon>
+                  </_default>
+                </span>
+                <div
+                  className="action_content"
+                >
+                  <span
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "waiting for your approval to <b>Authenticate the communication history</b> of #old_channel by @kiwoon from 10:00 PM 23th May",
+                      }
+                    }
+                  />
+                  <_default
+                    action={
+                      Object {
+                        "date": 1596718199844,
+                        "title": "waiting for your approval to <b>Authenticate the communication history</b> of #old_channel by @kiwoon from 10:00 PM 23th May",
+                        "type": "ApproveRequest",
+                      }
+                    }
+                  />
+                </div>
+                <_default
+                  type="ApproveRequest"
+                >
+                  <div
+                    className="actions"
+                  >
+                    <button
+                      style={
+                        Object {
+                          "background": "skyblue",
+                        }
+                      }
+                    >
+                      Join
+                    </button>
+                    <button
+                      className="gray-button"
+                    >
+                      Not Join
+                    </button>
+                  </div>
+                </_default>
+              </div>
+            </div>
+          </styled.div>
+        </Action>
+        <Action
+          action={
+            Object {
+              "date": 1596718199844,
+              "files": Array [
+                Object {
+                  "details": "4MB PDF",
+                  "name": "abcd.pdf",
+                  "type": "PDF",
+                },
+              ],
+              "headline": "kiwoon <b>asked</b> <span style='color:skyblue'>you + 2 others</span> in #channel_name2",
+              "question": "<span style='color:skyblue'>@All, please update below files, it will be reviewed tonight</span>",
+              "type": "RequestAnswer",
+              "user_name": "Kiwoon",
+            }
+          }
+          key="key_2"
+        >
+          <styled.div>
+            <div
+              className="sc-AxjAm dWcxop"
+            >
+              <p
+                className="action_headline"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "kiwoon <b>asked</b> <span style='color:skyblue'>you + 2 others</span> in #channel_name2",
+                  }
+                }
+              />
+              <div
+                className="card_details"
+              >
+                <span
+                  className="action_schema"
+                >
+                  <_default
+                    type="RequestAnswer"
+                  >
+                    <span
+                      style={
+                        Object {
+                          "background": "skyblue",
+                        }
+                      }
+                    >
+                      ASK
+                    </span>
+                  </_default>
+                </span>
+                <div
+                  className="action_content"
+                >
+                  <_default
+                    action={
+                      Object {
+                        "date": 1596718199844,
+                        "files": Array [
+                          Object {
+                            "details": "4MB PDF",
+                            "name": "abcd.pdf",
+                            "type": "PDF",
+                          },
+                        ],
+                        "headline": "kiwoon <b>asked</b> <span style='color:skyblue'>you + 2 others</span> in #channel_name2",
+                        "question": "<span style='color:skyblue'>@All, please update below files, it will be reviewed tonight</span>",
+                        "type": "RequestAnswer",
+                        "user_name": "Kiwoon",
+                      }
+                    }
+                  >
+                    <div
+                      className="action_question"
+                    >
+                      <b>
+                        Kiwoon
+                      </b>
+                       
+                      <span>
+                        Thu Aug 06 2020
+                      </span>
+                      <p
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "<span style='color:skyblue'>@All, please update below files, it will be reviewed tonight</span>",
+                          }
+                        }
+                      />
+                    </div>
+                    <_default
+                      files={
+                        Array [
+                          Object {
+                            "details": "4MB PDF",
+                            "name": "abcd.pdf",
+                            "type": "PDF",
+                          },
+                        ]
+                      }
+                    >
+                      <ul
+                        className="action_files_list"
+                      >
+                        <li
+                          key="abcd.pdf"
+                        >
+                          <Icon
+                            as="i"
+                            className="files_list_icon"
+                            name="facebook"
+                            size="big"
+                          >
+                            <i
+                              aria-hidden="true"
+                              className="facebook big icon files_list_icon"
+                              onClick={[Function]}
+                            />
+                          </Icon>
+                          <span
+                            className="files_list_name"
+                          >
+                            abcd.pdf
+                          </span>
+                          <span
+                            className="files_list_detail"
+                          >
+                            4MB PDF
+                          </span>
+                        </li>
+                      </ul>
+                    </_default>
+                  </_default>
+                </div>
+                <_default
+                  type="RequestAnswer"
+                >
+                  <div
+                    className="actions"
+                  >
+                    <button
+                      style={
+                        Object {
+                          "background": "skyblue",
+                        }
+                      }
+                    >
+                      Join
+                    </button>
+                    <button
+                      className="gray-button"
+                    >
+                      Not Join
+                    </button>
+                  </div>
+                </_default>
+              </div>
+            </div>
+          </styled.div>
+        </Action>
+        <Action
+          action={
+            Object {
+              "date": 1596718199844,
+              "headline": "kiwoon <b>asked</b> you in #inter M",
+              "question": "<span style='color:skyblue'>@Spancer</span>, would you join the meeting tomorrow? I attach a material file for your reference only.",
+              "type": "Confirm",
+              "user_name": "Kiwoon",
+            }
+          }
+          key="key_3"
+        >
+          <styled.div>
+            <div
+              className="sc-AxjAm dWcxop"
+            >
+              <p
+                className="action_headline"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "kiwoon <b>asked</b> you in #inter M",
+                  }
+                }
+              />
+              <div
+                className="card_details"
+              >
+                <span
+                  className="action_schema"
+                >
+                  <_default
+                    type="Confirm"
+                  >
+                    <span
+                      style={
+                        Object {
+                          "background": "skyblue",
+                        }
+                      }
+                    >
+                      ASK
+                    </span>
+                  </_default>
+                </span>
+                <div
+                  className="action_content"
+                >
+                  <_default
+                    action={
+                      Object {
+                        "date": 1596718199844,
+                        "headline": "kiwoon <b>asked</b> you in #inter M",
+                        "question": "<span style='color:skyblue'>@Spancer</span>, would you join the meeting tomorrow? I attach a material file for your reference only.",
+                        "type": "Confirm",
+                        "user_name": "Kiwoon",
+                      }
+                    }
+                  >
+                    <div
+                      className="action_question"
+                    >
+                      <b>
+                        Kiwoon
+                      </b>
+                       
+                      <span>
+                        Thu Aug 06 2020
+                      </span>
+                      <p
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "<span style='color:skyblue'>@Spancer</span>, would you join the meeting tomorrow? I attach a material file for your reference only.",
+                          }
+                        }
+                      />
+                    </div>
+                    <_default />
+                  </_default>
+                </div>
+                <_default
+                  type="Confirm"
+                >
+                  <div
+                    className="actions"
+                  >
+                    <button
+                      style={
+                        Object {
+                          "background": "skyblue",
+                        }
+                      }
+                    >
+                      Join
+                    </button>
+                    <button
+                      className="gray-button"
+                    >
+                      Not Join
+                    </button>
+                  </div>
+                </_default>
+              </div>
+            </div>
+          </styled.div>
+        </Action>
+      </div>
+    </div>
+  </styled.div>
+</_default>
+`;

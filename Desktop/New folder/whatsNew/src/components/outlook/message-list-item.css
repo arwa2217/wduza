@@ -1,0 +1,143 @@
+.message-list-item {
+    width: 100%;
+    /*max-height: var(--message-list-item-height);*/
+    border-bottom: 1px solid #DEDEDE;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: -1;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    height: 72px;
+}
+
+/* .message-list-item.email-is-unread .message-list-item-header .message-list-item-header-sender, .message-list-item.email-is-unread .message-list-item-subject p{
+    font-weight: bold;
+} */
+.message-list-item .user-image{
+    background-color: #c6c6c6;
+}
+.message-list-item-subject{
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    overflow: hidden;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+}
+
+/*.email-is-unread {*/
+/*    background-color: #FBFFE5;*/
+/*}*/
+
+.message-list-item.email-is-unread .message-list-item-header .message-list-item-header-sender {
+    font-weight: bold;
+}
+
+.message-list-item.email-is-unread .message-list-message {
+    color: #308F65;
+}
+
+.message-list-item.email-is-unread {
+        background-color: #FBFFE5;
+}
+
+.message-list-item .check-mail-item{
+    width: 16px;
+    display: none;
+    margin-right: 14px;
+    padding-top: 0;
+}
+.message-list-item .check-mail-item.has-checked{
+    display: block;
+}
+.message-list-item .user-image.has-checked{
+    display: none;
+}
+
+.active-item {
+    background-color: #f2f2f2;
+}
+
+.message-list-item-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+.message-list-item-header .message-list-item-header-right{
+    width: 50%;
+    text-align: right;
+}
+.message-list-item-header .message-list-item-header-right .has-attachments,.message-list-item-header .message-list-item-header-right .sent-time{
+    display: inline-block;
+}
+.message-list-item-header .message-list-item-header-right .delete-button{
+    display: none;
+}
+.message-list-item-header .message-list-item-header-right .flag-button{
+    display: inline-block;
+}
+.delete-button, .delete-button {
+    margin-right: 5px;
+    border-radius: 2px;
+}
+
+.flag-button:hover, .delete-button:hover {
+    background-color: #EFF6FF;
+}
+
+.received-date-time {
+    font-weight: 400;
+    font-size: 12px;
+    min-width: 59px;
+    flex: 0 0 auto;
+    text-align: right;
+    color: #666666;
+}
+.message-item-wrap{
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 1 1 auto;
+    overflow: hidden;
+}
+.message-list-bookmark-btn,
+.message-list-bookmark-btn:focus {
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    /* margin: 5px 12px 0px 0px; */
+    float: right;
+    padding: 0 !important;
+    line-height: 0 !important;
+}
+
+.message-list-message > ul,ol{
+    padding-left: 12px;
+}
+
+.message-list-message > ul > li{
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+
+.message-list-message > ol > li{
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+

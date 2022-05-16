@@ -1,0 +1,269 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match the snapshot 1`] = `
+<App>
+  <Router
+    history={
+      Object {
+        "action": "REPLACE",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "irx58t",
+          "pathname": "/home",
+          "search": "",
+          "state": Object {
+            "from": Object {
+              "hash": "",
+              "pathname": "/",
+              "search": "",
+              "state": undefined,
+            },
+          },
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <Switch>
+      <Route
+        component={[Function]}
+        computedMatch={
+          Object {
+            "isExact": true,
+            "params": Object {},
+            "path": "/home",
+            "url": "/home",
+          }
+        }
+        location={
+          Object {
+            "hash": "",
+            "key": "irx58t",
+            "pathname": "/home",
+            "search": "",
+            "state": Object {
+              "from": Object {
+                "hash": "",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              },
+            },
+          }
+        }
+        path="/home"
+      >
+        <withI18nextTranslation(HomePage)
+          history={
+            Object {
+              "action": "REPLACE",
+              "block": [Function],
+              "createHref": [Function],
+              "go": [Function],
+              "goBack": [Function],
+              "goForward": [Function],
+              "length": 1,
+              "listen": [Function],
+              "location": Object {
+                "hash": "",
+                "key": "irx58t",
+                "pathname": "/home",
+                "search": "",
+                "state": Object {
+                  "from": Object {
+                    "hash": "",
+                    "pathname": "/",
+                    "search": "",
+                    "state": undefined,
+                  },
+                },
+              },
+              "push": [Function],
+              "replace": [Function],
+            }
+          }
+          location={
+            Object {
+              "hash": "",
+              "key": "irx58t",
+              "pathname": "/home",
+              "search": "",
+              "state": Object {
+                "from": Object {
+                  "hash": "",
+                  "pathname": "/",
+                  "search": "",
+                  "state": undefined,
+                },
+              },
+            }
+          }
+          match={
+            Object {
+              "isExact": true,
+              "params": Object {},
+              "path": "/home",
+              "url": "/home",
+            }
+          }
+        >
+          <HomePage
+            history={
+              Object {
+                "action": "REPLACE",
+                "block": [Function],
+                "createHref": [Function],
+                "go": [Function],
+                "goBack": [Function],
+                "goForward": [Function],
+                "length": 1,
+                "listen": [Function],
+                "location": Object {
+                  "hash": "",
+                  "key": "irx58t",
+                  "pathname": "/home",
+                  "search": "",
+                  "state": Object {
+                    "from": Object {
+                      "hash": "",
+                      "pathname": "/",
+                      "search": "",
+                      "state": undefined,
+                    },
+                  },
+                },
+                "push": [Function],
+                "replace": [Function],
+              }
+            }
+            i18n={Object {}}
+            location={
+              Object {
+                "hash": "",
+                "key": "irx58t",
+                "pathname": "/home",
+                "search": "",
+                "state": Object {
+                  "from": Object {
+                    "hash": "",
+                    "pathname": "/",
+                    "search": "",
+                    "state": undefined,
+                  },
+                },
+              }
+            }
+            match={
+              Object {
+                "isExact": true,
+                "params": Object {},
+                "path": "/home",
+                "url": "/home",
+              }
+            }
+            t={[Function]}
+            tReady={false}
+          >
+            <div
+              className="vertical-center container horizontal-center"
+            >
+              <div
+                className="row justify-content-center mt-5"
+              >
+                <Container
+                  className="text-center"
+                  fluid={false}
+                >
+                  <div
+                    className="text-center container"
+                  >
+                    <h1
+                      className="d-none d-sm-block display-1 "
+                    >
+                      monoly.label
+                    </h1>
+                    <h1
+                      className="d-block d-sm-none display-1 "
+                    >
+                      monoly.label
+                    </h1>
+                  </div>
+                </Container>
+              </div>
+              <div
+                className="row"
+              >
+                <div
+                  className="col-lg-12 text-center mt-3"
+                >
+                  <p
+                    className="d-none d-sm-block display-5 subHeaderStyle"
+                  >
+                    home.message.label
+                  </p>
+                  <p
+                    className="d-block d-sm-none display-5 subHeaderStyleMobile"
+                  >
+                    home.message.label
+                  </p>
+                </div>
+              </div>
+              <div
+                className="row  text-center mt-5"
+              >
+                <div
+                  className="col-lg-3 offset-lg-3 text-center mt-5"
+                >
+                  <Link
+                    className="btn btn-lg btn-outline-primary btn-block badge-pill customButtonHeight"
+                    to="/signin"
+                  >
+                    <LinkAnchor
+                      className="btn btn-lg btn-outline-primary btn-block badge-pill customButtonHeight"
+                      href="/signin"
+                      navigate={[Function]}
+                    >
+                      <a
+                        className="btn btn-lg btn-outline-primary btn-block badge-pill customButtonHeight"
+                        href="/signin"
+                        onClick={[Function]}
+                      >
+                        <p
+                          className="centerText"
+                        >
+                          signin.label
+                        </p>
+                      </a>
+                    </LinkAnchor>
+                  </Link>
+                </div>
+                <div
+                  className="col-lg-3 offset-right-lg-2 text-center mt-5"
+                >
+                  <a
+                    className="btn btn-primary btn-lg btn-block badge-pill customButtonHeight"
+                  >
+                    <p
+                      className="centerText"
+                    >
+                      signup:label
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </HomePage>
+        </withI18nextTranslation(HomePage)>
+      </Route>
+    </Switch>
+  </Router>
+</App>
+`;

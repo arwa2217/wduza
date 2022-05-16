@@ -1,0 +1,101 @@
+.outlook-panel-auth{
+  margin-top: 70px;
+  padding: 15px;
+}
+
+.message-list {
+  width: 100%;
+ /* height: calc(
+    100vh - var(--message-list-top-bar-height) -
+      var(--message-list-bottom-margin)
+  );*/
+  background-color: #ffffff;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* .message-list-body {
+  width: 100%;
+  height: calc(
+    100vh - var(--message-list-top-bar-height) -
+      var(--message-list-header-height) -
+      var(--message-list-bottom-margin) - 8px
+  );
+  display: block;
+  overflow-x: hidden;
+  overflow-y: overlay;
+  position: relative;
+}
+
+.message-list-body::-webkit-scrollbar {
+  width: 0px;
+} */
+
+.message-list-container {
+  overflow: overlay !important;
+}
+
+.message-list-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.message-list-container::-webkit-scrollbar-track{
+  background-color: transparent;
+}
+
+.message-list-container::-webkit-scrollbar-thumb {
+  background: transparent;
+  box-shadow: inset 0 0 14px 14px rgb(0 0 0 / 10%);
+  border: solid 4px transparent !important;
+  border-radius: 100px;
+}
+
+.message-list-container:hover::-webkit-scrollbar-thumb,
+.message-list-container:active::-webkit-scrollbar-thumb,
+.message-list-container:focus::-webkit-scrollbar-thumb,
+.message-list-container:focus-within::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.5);
+}
+
+.message-list-container:hover::-webkit-scrollbar-track,
+.message-list-container:active::-webkit-scrollbar-track,
+.message-list-container:focus::-webkit-scrollbar-track,
+.message-list-container:focus-within::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.message-list-body-item {
+  width: 100%;
+  padding: 0 !important;
+  position: relative;
+  transition: box-shadow 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.flagged-message {
+  background-color: #e0efe7;
+}
+
+.message-list-body-item:hover{
+  /*box-shadow: inset 1px 0 0 #dadce0, inset 0 0 0 #dadce0, 0 1px 4px 0 rgb(60 64 67), 0 1px 0px -1px rgb(60 64 67);*/
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.message-list-body-item:hover .message-list-item-header .message-list-item-header-right .delete-button{
+  display: inline-block;
+}
+.message-list-body-item:hover .wrap-avatar .user-image{
+  display: none;
+}
+.message-list-body-item:hover .wrap-avatar .check-mail-item{
+  display: block;
+}
+
+.message-list-body-item:hover .message-list-item-header .message-list-item-header-right .flag-button{
+  display: inline-block;
+}
+
+.message-list-body-item.active-item{
+  /*background-color: #DEECF9;*/
+  background-color: #F2F2F2;
+}

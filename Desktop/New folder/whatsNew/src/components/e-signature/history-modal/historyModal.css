@@ -1,0 +1,131 @@
+.history-modal-container {
+    width: 100%;
+}
+
+.history-modal-row {
+    padding: 12px 0px;
+}
+
+.history-row-content {
+    width: 100%;
+    display: flex;
+}
+
+.history-box-left {
+    width: 50%;
+}
+
+.history-box-right {
+    width: 50%;
+}
+
+.header-span-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 134%;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.5)
+}
+
+.content-span-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 134%;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.9)
+}
+
+.history-modal-table {
+   margin: 25px 0px 33px 0px;
+}
+
+.history-row {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.history-row > th {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 134%;
+    align-items: center;
+    padding: 6px 10px 6px 0px;
+    color: rgba(0, 0, 0, 0.5);
+    width: 180px;
+    display: inline-block;
+}
+
+.history-row > td {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 134%;
+    padding: 14px 10px 14px 0px;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.7);
+    width: 180px;
+    display: inline-block;
+}
+
+.history-td-dv {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 134%;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.history-border-bar {
+    border-right: 1px solid rgba(0, 0, 0, 0.04) !important;
+    box-sizing: border-box !important;
+    transform: rotate(90deg) !important;
+    width: 10px;
+}
+
+.history-th-left {
+    width: 170px !important;
+    display: inline-block;
+}
+
+.history-row-no-data {
+    padding-left: 0 !important;
+}
+
+
+.history-th-left-1 {
+    width: 95px !important;
+}
+
+.history-th-left-2 {
+    width: 105px !important;
+}
+
+.history-th-left-3 {
+    width: 185px !important;
+}
+
+.history-th-left-4 {
+    width: 135px !important;
+}
+
+.history-border-bar2 {
+    border: 1px solid rgba(0, 0, 0, 0.04) !important;
+    box-sizing: border-box !important;
+    transform: rotate(90deg) !important;
+    width: 16px;
+}
+
+.history-divider-right {
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,13 @@
+.sideBar .ui.large.vertical.menu {
+  width: 304px !important;
+}
+@media (min-width: 0px) {
+  .cardWidth {
+    width: initial;
+  }
+}
+@media (min-width: 600px) {
+  .cardWidth {
+    width: 18rem;
+  }
+}

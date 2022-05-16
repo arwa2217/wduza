@@ -1,0 +1,5 @@
+export const REFRESH_ACTION = Symbol("REFRESH_ACTION");
+export const SET_CONTACT_LIST = Symbol("SET_CONTACT_LIST");
+export const SET_MAIL_SUMMARY = Symbol("SET_MAIL_SUMMARY");
+export const SET_SEARCH_KEYWORD = Symbol("SET_SEARCH_KEYWORD");
+export const REFRESH_CONTACT_IMAGE = Symbol("REFRESH_CONTACT_IMAGE");

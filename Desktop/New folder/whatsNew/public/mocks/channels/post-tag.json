@@ -1,0 +1,55 @@
+{
+    "code": 0,
+    "message": "string",
+    "tagCount":"4",
+    "data": [
+        {
+            "message":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a tempus lorem. Ut sed nibh massa. Quisque congue quam nibh.",
+            "channelId": "string",
+            "post": {
+                "id": "string",
+                "content": "string",
+                "createdAt": 0
+            },
+            "createdBy": "Clerk",
+            "createdAt": 0,
+            "tagName": "Important"
+        },
+        {
+            "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a tempus lorem. Ut sed nibh massa. Quisque congue quam nibh.",
+            "channelId": "string",
+            "post": {
+                "id": "string",
+                "content": "string",
+                "createdAt": 0
+            },
+            "createdBy": "Hussy",
+            "createdAt": 0,
+            "tagName": "Decision"
+        },
+        {
+            "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a tempus lorem. Ut sed nibh massa. Quisque congue quam nibh.",
+            "channelId": "string",
+            "post": {
+                "id": "Harry",
+                "content": "string",
+                "createdAt": 0
+            },
+            "createdBy": "Harry",
+            "createdAt": 0,
+            "tagName": "Question"
+        },
+        {
+            "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a tempus lorem. Ut sed nibh massa. Quisque congue quam nibh.",
+            "channelId": "string",
+            "post": {
+                "id": "string",
+                "content": "string",
+                "createdAt": 0
+            },
+            "createdBy": "Mat",
+            "createdAt": 0,
+            "tagName": "follow-up"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "code": 0,
+    "message": "string",
+    "data": {
+      "success": true,
+      "timestamp": 0,
+      "channelId": "string",
+      "channelType": "string",
+      "messageType": "string",
+      "message": {
+        "id": 202081532257,
+        "message": "string",
+        "createdAt": 0
+      },
+      "reply": {
+        "isReply": true,
+        "broadcastReply": true,
+        "parentId": 0
+      },
+      "userId": 0
+    }
+  }
+
+  

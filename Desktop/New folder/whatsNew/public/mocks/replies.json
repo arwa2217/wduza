@@ -1,0 +1,172 @@
+{
+  "code": 2001,
+  "message": "Request successfully processed.",
+  "data": [
+    {
+      "id": "391c8a90-e7e2-4b1f-9d08-a2ca70475a3f",
+      "sequence_id": 3,
+      "parentId": "",
+      "replyCount": 0,
+      "post": {
+        "id": "69688423-b8dc-432c-b022-1dea203be89d",
+        "content": "\u003cp\u003ehello all\u003c/p\u003e",
+        "type": "",
+        "createdAt": 1606712837077
+      },
+      "user": {
+        "id": "fd5b27ab-a52a-4ba3-b960-234dc4788eb6",
+        "displayName": "DPwudza",
+        "userImg": ""
+      },
+      "fileInfo": {},
+      "tagInfo": []
+    },
+    {
+      "id": "3023c1de-6773-4b31-ba9d-9621d7e58e54",
+      "sequence_id": 1,
+      "parentId": "",
+      "replyCount": 0,
+      "post": {
+        "id": "e86b6833-9c4f-445d-89e9-621516c8b675",
+        "content": "\u003cp\u003eDPwudza created this channel\u003c/p\u003e",
+        "type": "SYSTEM",
+        "createdAt": 1606712807000
+      },
+      "user": { "id": "system", "displayName": "Monoly", "userImg": "" },
+      "fileInfo": {},
+      "tagInfo": []
+    },
+    {
+      "id": "ef6573fa-1b95-40c0-9df0-31401374bbe7",
+      "sequence_id": 2,
+      "parentId": "",
+      "replyCount": 0,
+      "post": {
+        "id": "4a03aa01-accc-4851-adca-4618f03f1570",
+        "content": "\u003cp\u003eGuest User  added by DPwudza\u003c/p\u003e",
+        "type": "SYSTEM",
+        "createdAt": 1606712807000
+      },
+      "user": { "id": "system", "displayName": "Monoly", "userImg": "" },
+      "fileInfo": {},
+      "tagInfo": []
+    },
+    {
+      "id": "391c8a90-e7e2-4b1f-9d08-a2ca70475a3f",
+      "sequence_id": 3,
+      "parentId": "",
+      "replyCount": 0,
+      "post": {
+        "id": "69688423-b8dc-432c-b022-1dea203be89d",
+        "content": "\u003cp\u003ehello all\u003c/p\u003e",
+        "type": "",
+        "createdAt": 1606712837077
+      },
+      "user": {
+        "id": "fd5b27ab-a52a-4ba3-b960-234dc4788eb6",
+        "displayName": "DPwudza",
+        "userImg": ""
+      },
+      "fileInfo": {},
+      "tagInfo": []
+    },
+    {
+      "id": "3023c1de-6773-4b31-ba9d-9621d7e58e54",
+      "sequence_id": 1,
+      "parentId": "",
+      "replyCount": 0,
+      "post": {
+        "id": "e86b6833-9c4f-445d-89e9-621516c8b675",
+        "content": "\u003cp\u003eDPwudza created this channel\u003c/p\u003e",
+        "type": "SYSTEM",
+        "createdAt": 1606712807000
+      },
+      "user": { "id": "system", "displayName": "Monoly", "userImg": "" },
+      "fileInfo": {},
+      "tagInfo": []
+    },
+    {
+      "id": "ef6573fa-1b95-40c0-9df0-31401374bbe7",
+      "sequence_id": 2,
+      "parentId": "",
+      "replyCount": 0,
+      "post": {
+        "id": "4a03aa01-accc-4851-adca-4618f03f1570",
+        "content": "\u003cp\u003eGuest User  added by DPwudza\u003c/p\u003e",
+        "type": "SYSTEM",
+        "createdAt": 1606712807000
+      },
+      "user": { "id": "system", "displayName": "Monoly", "userImg": "" },
+      "fileInfo": {},
+      "tagInfo": []
+    },
+    {
+      "id": "391c8a90-e7e2-4b1f-9d08-a2ca70475a3f",
+      "sequence_id": 3,
+      "parentId": "",
+      "replyCount": 0,
+      "post": {
+        "id": "69688423-b8dc-432c-b022-1dea203be89d",
+        "content": "\u003cp\u003ehello all\u003c/p\u003e",
+        "type": "",
+        "createdAt": 1606712837077
+      },
+      "user": {
+        "id": "fd5b27ab-a52a-4ba3-b960-234dc4788eb6",
+        "displayName": "DPwudza",
+        "userImg": ""
+      },
+      "fileInfo": {},
+      "tagInfo": []
+    },
+    {
+      "id": "3023c1de-6773-4b31-ba9d-9621d7e58e54",
+      "sequence_id": 1,
+      "parentId": "",
+      "replyCount": 0,
+      "post": {
+        "id": "e86b6833-9c4f-445d-89e9-621516c8b675",
+        "content": "\u003cp\u003eDPwudza created this channel\u003c/p\u003e",
+        "type": "SYSTEM",
+        "createdAt": 1606712807000
+      },
+      "user": { "id": "system", "displayName": "Monoly", "userImg": "" },
+      "fileInfo": {},
+      "tagInfo": []
+    },
+    {
+      "id": "ef6573fa-1b95-40c0-9df0-31401374bbe7",
+      "sequence_id": 2,
+      "parentId": "",
+      "replyCount": 0,
+      "post": {
+        "id": "4a03aa01-accc-4851-adca-4618f03f1570",
+        "content": "\u003cp\u003eGuest User  added by DPwudza\u003c/p\u003e",
+        "type": "SYSTEM",
+        "createdAt": 1606712807000
+      },
+      "user": { "id": "system", "displayName": "Monoly", "userImg": "" },
+      "fileInfo": {},
+      "tagInfo": []
+    },
+    {
+      "id": "391c8a90-e7e2-4b1f-9d08-a2ca70475a3f",
+      "sequence_id": 3,
+      "parentId": "",
+      "replyCount": 0,
+      "post": {
+        "id": "69688423-b8dc-432c-b022-1dea203be89d",
+        "content": "\u003cp\u003ehello all\u003c/p\u003e",
+        "type": "",
+        "createdAt": 1606712837077
+      },
+      "user": {
+        "id": "fd5b27ab-a52a-4ba3-b960-234dc4788eb6",
+        "displayName": "DPwudza",
+        "userImg": ""
+      },
+      "fileInfo": {},
+      "tagInfo": []
+    }
+  ]
+}

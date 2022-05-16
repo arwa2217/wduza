@@ -1,0 +1,2 @@
+channel details JSON
+    creatorId field also expected

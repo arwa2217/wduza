@@ -1,0 +1,158 @@
+.topBar-class {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 19px 16px;
+}
+
+.esign-topbar,
+.add-esign-topbar {
+  /* height: 55px; */
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.esign-topbar-new-folder-btn,
+.esign-topbar-new-folder-btn:focus {
+  background: #03bd5d url(../../assets/icons/v2/create-new-esignature.svg)
+    no-repeat 10px center / 14px;
+  font-family: "Roboto", sans-serif !important;
+  border: 1px solid #03bd5d;
+  outline: none;
+  cursor: pointer;
+  float: left;
+  /* margin-left: 10px; */
+  padding: 6.5px 10px;
+  height: 32px;
+  width: 136px;
+  border-radius: 4px !important;
+  box-sizing: border-box;
+  /* box-shadow: none; */
+}
+.esign-topbar-download-btn,
+.esign-topbar-download-btn:focus {
+  background: #ffffff url(../../assets/icons/v2/ic_file_download.svg) no-repeat
+    10px center / 16px;
+  font-family: "Roboto", sans-serif !important;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  outline: none;
+  cursor: pointer;
+  float: left;
+  margin-left: 8px;
+  padding: 6.5px 10px;
+  height: 32px;
+  width: 107px;
+  border-radius: 4px !important;
+  box-sizing: border-box;
+  /* box-shadow: none; */
+}
+.esign-topbar p {
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 400;
+}
+
+.esign-topbar-delete-btn,
+.esign-topbar-delete-btn:focus {
+  background: #ffffff url(../../assets/icons/v2/ic_delete.svg) no-repeat 10px
+    center / 16px;
+  font-family: "Roboto", sans-serif !important;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  outline: none;
+  cursor: pointer;
+  float: left;
+  margin-left: 8px;
+  padding: 6.5px 10px;
+  height: 32px;
+  width: 84px;
+  border-radius: 4px !important;
+  box-sizing: border-box;
+  /* box-shadow: none; */
+}
+.esign-topbar-forward-btn,
+.esign-topbar-forward-btn:focus {
+  background: #ffffff url(../../assets/icons/v2/ic_forward_esign.svg) no-repeat
+    10px center / 16px;
+  font-family: "Roboto", sans-serif !important;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  outline: none;
+  cursor: pointer;
+  float: left;
+  margin-left: 8px;
+  padding: 6.5px 10px;
+  height: 32px;
+  width: 96px;
+  border-radius: 4px !important;
+  box-sizing: border-box;
+  /* box-shadow: none; */
+}
+.esign-topbar-share-btn,
+.esign-topbar-share-btn:focus {
+  background: #ffffff url(../../assets/icons/v2/ic_share.svg) no-repeat 10px
+    center / 13px;
+  font-family: "Roboto", sans-serif !important;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  outline: none;
+  cursor: pointer;
+  float: left;
+  margin-left: 8px;
+  padding: 8px 14px !important;
+  height: 32px;
+  width: 80px;
+  border-radius: 4px !important;
+  box-sizing: border-box;
+  /* box-shadow: none; */
+}
+.esign-topbar-new-folder-btn:hover {
+  background: #03bd5d url(../../assets/icons/v2/create-new-esignature.svg)
+    no-repeat 10px center / 14px;
+}
+.esign-topbar-new-folder-btn p {
+  color: #fff !important;
+}
+.esign-topbar-new-folder-btn:hover p {
+  color: #fff !important;
+}
+.add-esign-topbar .header {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 25px 16px;
+}
+
+/* =================================================
+  COMPONENT : ESIGN SEARCH
+====================================================*/
+
+.esign-search-container {
+  margin-right: 16px;
+}
+.esign-search-container.open {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
+  margin: 0;
+  background: #fff;
+}
+.esign-search-container.open .esign-inner-container {
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  max-width: 229px;
+  min-width: 229px;
+  margin-right: 16px;
+  padding: 6px 8px 5px;
+}
+.esign-input-container > input {
+  color: #000000e5;
+  font-size: 14px;
+  line-height: 19px;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  margin: 0 8.5px 0 8px;
+  padding: 0;
+  width: 169px;
+}
+.esign-search-container .esign-btn {
+  font-size: 14px;
+  line-height: 19px;
+  color: #00a95b;
+}

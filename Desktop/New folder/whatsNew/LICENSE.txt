@@ -1,0 +1,8 @@
+* Copyright (C) 2020 Monoly, Inc - All Rights Reserved
+ * 
+ * Unauthorized copying of this repo or any of its files, 
+ * via any medium is strictly prohibited
+ * Proprietary and confidential
+ *
+ * Written by Kiwoon Sung <k.sung@monoly.com>, July 2020
+ */

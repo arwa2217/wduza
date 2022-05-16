@@ -1,0 +1,96 @@
+{
+  "code": 2001,
+  "message": "Request successfully processed.",
+  "data": [
+    {
+      "id": 61,
+      "post": {
+        "id": "2020807407",
+        "content": "\u003cp\u003ehiiiiiiiiii\u003c/p\u003e",
+        "createdAt": 1600713460667
+      },
+      "user": { "id": 1, "displayName": "prabhat", "userImg": "" }
+    },
+    {
+      "id": 62,
+      "post": {
+        "id": "2020808237",
+        "content": "\u003cp\u003ebyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy\u003c/p\u003e",
+        "createdAt": 1600713503611
+      },
+      "user": { "id": 2, "displayName": "DKP", "userImg": "" }
+    },
+    {
+      "id": 63,
+      "post": {
+        "id": "2020809107",
+        "content": "\u003cp\u003ekkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk\u003c/p\u003e",
+        "createdAt": 1600713550502
+      },
+      "user": { "id": 1, "displayName": "prabhat", "userImg": "" }
+    },
+    {
+      "id": 64,
+      "post": {
+        "id": "2020809518",
+        "content": "\u003cp\u003elllllllllllllllllllllllllllllll\u003c/p\u003e",
+        "createdAt": 1600713591632
+      },
+      "user": { "id": 2, "displayName": "DKP", "userImg": "" }
+    },
+    {
+      "id": 65,
+      "post": {
+        "id": "20208011199",
+        "content": "\u003cp\u003efrom dkppppppppppppppp\u003c/p\u003e",
+        "createdAt": 1600713679511
+      },
+      "user": { "id": 2, "displayName": "DKP", "userImg": "" }
+    },
+    {
+      "id": 66,
+      "post": {
+        "id": "20208011328",
+        "content": "\u003cp\u003eFrom prabhatttttttttttttttttttttttttt\u003c/p\u003e",
+        "createdAt": 1600713692142
+      },
+      "user": { "id": 1, "displayName": "prabhat", "userImg": "" }
+    },
+    {
+      "id": 67,
+      "post": {
+        "id": "20208017467",
+        "content": "\u003cp\u003emessage from prabhat\u003c/p\u003e",
+        "createdAt": 1600714066950
+      },
+      "user": { "id": 1, "displayName": "prabhat", "userImg": "" }
+    },
+    {
+      "id": 68,
+      "post": {
+        "id": "20208018147",
+        "content": "\u003cp\u003eMessage from Deepak\u003c/p\u003e",
+        "createdAt": 1600714094430
+      },
+      "user": { "id": 2, "displayName": "DKP", "userImg": "" }
+    },
+    {
+      "id": 69,
+      "post": {
+        "id": "20208028370",
+        "content": "\u003cp\u003ehhhhhhhhhhhhhhhhhhhhhhhh\u003c/p\u003e",
+        "createdAt": 1600801117034
+      },
+      "user": { "id": 1, "displayName": "prabhat", "userImg": "" }
+    },
+    {
+      "id": 70,
+      "post": {
+        "id": "20208029580",
+        "content": "\u003cp\u003ehihiiiiiiiiiiiiiiiiiiiiii\u003c/p\u003e",
+        "createdAt": 1600801198224
+      },
+      "user": { "id": 2, "displayName": "DKP", "userImg": "" }
+    }
+  ]
+}

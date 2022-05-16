@@ -1,0 +1,175 @@
+.overview-modal {
+  padding: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+}
+.overview-modal .pdftron-container {
+  border-top: 1px solid #CCCCCC;
+}
+.overview-modal .modal-dialog {
+  max-width: 460px;
+}
+.overview-modal .modal-content {
+  padding: 35px 30px 30px;
+  box-shadow: 0px 5px 15px rgb(0 0 0 / 12%);
+  border-radius: 4px;
+  border: none;
+}
+.overview-modal .modal-header {
+  padding: 0;
+  margin-bottom: 30px;
+}
+.overview-modal .modal-passcode-body {
+  padding: 0 !important;
+}
+.overview-modal .modal-footer {
+  margin: 0%;
+  padding: 0;
+}
+.overview-modal .custom-radio > input[type="radio"] + label:before{
+  width: 16px;
+  height: 16px;
+  padding: 3px;
+  margin-top: 2px;
+}
+.modal-fullscreen .file-view-div {
+  border: 0;
+  border-radius: 0;
+}
+.modal-fullscreen {
+  margin: 0 !important;
+  max-width: 100% !important;
+  height: 100% !important;
+  overflow: hidden;
+}
+.modal-fullscreen .modal-body {
+  padding: 0;
+  border-radius: 0;
+  border: 0px;
+}
+.m-b-100 {
+  margin-bottom: 65px !important;
+}
+.modal-fullscreen .modal-content {
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 0;
+  border: 0px !important;
+  padding: 0;
+}
+.modal-fullscreen .pdftron-container,
+.modal-fullscreen .file-view-div {
+  padding: 0 !important;
+  height: 100%;
+}
+.modal-fullscreen .webviewer {
+  height: 100%;
+}
+.overlay-content .webviewer {
+  filter: brightness(0.8) !important;
+}
+.modal {
+  padding: 0 !important;
+}
+.finish-btn {
+  min-width: 80px;
+}
+.continue-btn {
+  min-width: 76px;
+  padding: 6.5px 9px;
+}
+
+.finishModal {
+  top: calc(50% - 295px);
+}
+.finishModal .modal-content {
+  padding: 15px;
+}
+.finishModal .modal-dialog {
+  width: 640px;
+}
+
+.finishModal .cong-large-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.9);
+  margin: 5px 0 8px 0;
+}
+
+.finishModal .cong-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  align-items: center;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7);
+  margin: 0px;
+  margin-bottom: 25px;
+}
+.finishModal .cong-btn {
+  padding: 7.5px 12px;
+  /* width: 92px;
+  height: 36px;
+  left: 184px;
+  top: 0px; */
+  height: 36px;
+  background: #03bd5d;
+  border-radius: 4px;
+  /* flex: none;
+  order: 0;
+  flex-grow: 0; */
+  margin: 0;
+  font-size: 16px;
+  line-height: 134%;
+  vertical-align: middle;
+  display: inline-block;
+}
+.finishModal .cong-sign-in {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  align-items: center;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 6px 0px 0px 0px;
+}
+@media (min-width: 576px) {
+  .finishModal .modal-dialog {
+      max-width: 640px;
+  }
+}
+.message .show-more-post {
+  right: -33px;
+}
+.message .post-overflow {
+  line-height: 18px;
+}
+.message .post-overflow-hidden {
+  line-height: 18px;
+}
+
+.message .permission-link {
+  text-decoration: underline !important;
+  margin-left: 4px !important;
+  cursor: pointer;
+}
+
+.ddp-esign::after{
+  display: none; 
+}
+
+.custom-caret {
+  position: absolute;
+  right: 8px;
+}

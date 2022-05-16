@@ -1,0 +1,170 @@
+.files-forward-modal .modal-body {
+  padding: 30px 40px 0 40px !important;
+  /* flex: none !important; */
+  border-bottom: none !important;
+}
+.files-forward-modal .modal-footer {
+  height: 100px !important;
+}
+.share-files-modal .modal-body {
+  padding: 0 40px 10px !important;
+  flex: none !important;
+  border-bottom: none !important;
+  font-weight: 400 !important;
+}
+.files-forward-modal .modal-content {
+  min-height: 545px !important;
+  height: auto !important;
+}
+.share-files-modal .modal-content {
+  min-height: 632px !important;
+  height: auto !important;
+  overflow: auto !important;
+  background: #ffffff;
+}
+.share-files-modal .react-datepicker__input-container {
+  display: none;
+}
+
+.folder-input::placeholder {
+  opacity: 1 !important;
+}
+.member-add-input::placeholder {
+  opacity: 1 !important;
+}
+
+.files-forward-modal-form .target-content {
+  display: flex;
+  margin-bottom: 20px;
+}
+.files-forward-modal-form .target-radio-btn-container {
+  display: flex;
+  /* margin-left: 37px; */
+}
+.files-forward-modal-form .target-radio-btn-label {
+  margin: 0px 20px 0px 0px;
+  color: #19191a;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.files-forward-modal-form .target-radio-btn {
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+
+/*  Modal Form */
+.files-forward-modal-form,
+.share-files-modal-form > .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.files-forward-modal-form,
+.share-files-modal-form > .task-status-group {
+  margin-bottom: 15px;
+}
+.files-forward-modal-form,
+.share-files-modal-form > .form-group label {
+  font-size: 12px;
+  width: 100%;
+  line-height: 1;
+  margin-bottom: 10px;
+  color: var(--grey__dark);
+}
+
+.share-files-modal-form > .form-group .form-control {
+  height: 40px;
+  border-radius: 2px;
+}
+.files-forward-modal-form,
+.share-files-modal-form > .form-group .react-datepicker-wrapper {
+  width: 100%;
+}
+.files-forward-modal-form,
+.share-files-modal-form > .files-forward-add-notes,
+.files-forward-modal-form,
+.share-files-modal-form > .files-forward-add-notes > div {
+  margin-bottom: 0px !important;
+  /* min-height: 124px; */
+}
+.files-forward-modal-form input[type="radio"] + label:before,
+.share-files-modal-form input[type="radio"] + label:before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  margin-right: 10px;
+  /* background-color only for content */
+  background-clip: content-box;
+  border: 1px solid #dedede;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+/* appearance for checked radio button */
+.files-forward-modal-form input[type="radio"]:checked + label:before,
+.share-files-modal-form input[type="radio"]:checked + label:before {
+  background-color: #18b263;
+}
+
+.target-radio-btn {
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+
+.share-files-modal .list-group .member-list-item {
+  padding: 15px 0;
+  margin: 0 40px;
+  border-bottom: 1px solid #c8c8c8;
+}
+.share-files-modal .list-group .member-list-item:last-child {
+  border-bottom: none;
+}
+.share-files-modal .list-group .member-list-item .member-info > span {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 100%;
+  color: #19191a;
+  margin-right: 10px;
+}
+.share-files-modal .list-group .member-list-item .member-info > button {
+  background: #aecebd;
+  border-radius: 20px;
+  color: #ffffff;
+  border: none;
+}
+.share-files-modal .modal-footer {
+  padding: 0 !important;
+}
+.share-files-modal .modal-footer .actions-btn {
+  padding: 0 40px 40px 40px;
+}
+
+.share-files-modal .passcode {
+  display: flex;
+}
+
+.share-files-modal .expiration {
+  display: flex;
+}
+.share-files-modal .expiration-date {
+  margin-right: 10px;
+  margin-bottom: 2px;
+  display: flex;
+  align-items: end;
+  font-size: 14px;
+  color: var(--default);
+}
+
+.share-files-modal .email-add {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  z-index: 9;
+  transform: translateY(-50%);
+  color: var(--primary);
+}

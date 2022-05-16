@@ -1,0 +1,102 @@
+.files-summery-container .member-wrapper {
+  padding: 0px !important;
+  width: calc(100% - 40px);
+}
+.files-summery-container .member-wrapper:hover{
+  background-color: transparent;
+}
+.files-summery-container .member-wrapper > .member-info span.user-image {
+  height: 24px;
+  width: 24px;
+  min-width: 24px;
+  margin-right: 10px; 
+}
+/* .files-summery-container
+  .member-wrapper
+  > .member-info
+  .member-desc
+  > div
+  > span {
+  font-weight: bold;
+  font-size: 14px !important;
+  line-height: 100%;
+  margin-bottom: 6px;
+} */
+/* .files-summery-container
+  .member-wrapper
+  > .member-info
+  span:not(.span_ellipsis) {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 100%;
+} */
+.files-summery-container .member-wrapper > .member-info .member-desc {
+  display: flex;
+  flex-direction: column;
+}
+.files-summery-container .member-wrapper .member-desc .user-name {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  margin-bottom: 6px;
+}
+.files-summery-container .member-wrapper .member-desc .job-desc{
+  display: block;
+  margin-bottom: 6px;
+  line-height: 14px;
+}
+.files-summery-container .member-wrapper .member-desc .job-desc span {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  color: #19191a ;
+}
+.files-summery-container .member-wrapper .member-desc .post__time {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+}
+.files-panel-tab {
+  /* height: 302px; */
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.files-panel-tab .tab-content {
+  /* max-height: calc(100vh - 376px); */
+  /* max-height: calc(100vh - 525px); */
+  overflow-y: auto;
+  border-radius: 8px;
+}
+.files-panel-tab .tab-content:hover {
+  overflow-y: overlay;
+}
+.summary-container {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  padding: 9px 20px 6px;
+  margin-bottom: 20px;
+}
+.summary-container:last-child {
+  margin-bottom: 0;
+}
+/* .member-status {
+  min-width: 35%;
+  text-align: end;
+  padding: 10px 0;
+} */
+.member-status span {
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 100%;
+  width: 100%;
+  color: #ffffff;
+}
+.member-status .out {
+  background: #ca4c70;
+}
+.member-status .in {
+  background: #c8c8c8;
+}

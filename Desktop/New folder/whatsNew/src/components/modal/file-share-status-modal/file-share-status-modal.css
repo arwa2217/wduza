@@ -1,0 +1,67 @@
+.ui.dimmer {
+  z-index: 10001 !important;
+}
+.share-files-container .modal-dialog-centered {
+  max-width: 560px;
+}
+.modal-head-container {
+  display: flex !important;
+  justify-content: space-between;
+  padding: 40px 40px 34px 40px;
+  border: none;
+}
+.modal-head-container .heading-title {
+  font-size: 20px;
+  color: #19191a;
+  font-weight: normal;
+}
+.modal-head-container .back-btn,
+.share-btn {
+  cursor: pointer;
+}
+.share-files-modal-content {
+  padding: 0px 40px;
+}
+.share-files-modal-content .content-title {
+  font-size: 16px;
+  color: #19191a;
+  line-height: 1.5;
+}
+.share-files-modal-content .content-title .email-title {
+  margin: 0px 4px 0px 4px;
+  font-weight: 700;
+}
+.share-files-container .modal-content {
+  border: none;
+  padding: 0px !important;
+}
+.share-files-container .modal-content .content-title {
+  color: black;
+  text-align: left;
+  margin: 0px 0px 40px 0px !important;
+  font-size: 15px;
+}
+.share-files-container .modal-content .content-title,
+span.date {
+  color: var(--primary) !important;
+}
+.share-files-modal-footer {
+  /* padding: 40px; */
+  border: none;
+}
+.share-files-modal-footer .share-btn {
+  margin: 0 0 0 10px;
+  width: 130px;
+  height: 40px;
+  background: var(--primary);
+  border-radius: 2px;
+  cursor: pointer;
+}
+.share-files-modal-footer .back-btn {
+  margin: 0px;
+  width: 130px;
+  height: 40px;
+  background: var(--default);
+  border-radius: 2px;
+  cursor: pointer;
+}

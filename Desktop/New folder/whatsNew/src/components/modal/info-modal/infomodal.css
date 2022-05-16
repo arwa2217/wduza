@@ -1,0 +1,46 @@
+.customModal {
+  background: #fff !important;
+  height: auto !important;
+  top: auto !important;
+  left: auto !important;
+  bottom: auto !important;
+  right: auto !important;
+  width: 100% !important;
+  /* border: 2px solid #C0C9D4;
+    border-radius: 4px; */
+  padding: 32px 24px 24px !important;
+  max-width: 480px;
+}
+.customModal.ui.modal > .header {
+  border: none;
+  padding: 0 0 20px;
+}
+.customModal.ui.modal > .header:blank {
+  padding: 0;
+}
+.customModal.ui.modal > .content {
+  padding: 0 0 20px;
+}
+.customModal.ui.modal > .actions {
+  border: none;
+}
+.active {
+  display: block;
+}
+.blurring.dimmable > .modals {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blurring.dimmable > .dimmer {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.disabled-link {
+  pointer-events: none;
+}

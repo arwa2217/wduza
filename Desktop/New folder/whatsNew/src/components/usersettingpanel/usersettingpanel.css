@@ -1,0 +1,70 @@
+/*
+.user-settings .pl-2 .pl-4{
+    width: 155px;
+}
+*/
+.user-menu {
+  position: relative;
+}
+.user-menu > span {
+  position: absolute;
+  top: 0;
+  left: 1.5rem;
+}
+.user-menu .ui.attached.menu:not(.tabular) {
+  background: none;
+  border: none;
+  width: auto;
+  margin: 0;
+}
+.user-settings .user-menu .ui.attached.menu:not(.tabular) .menu {
+  bottom: 1.5rem !important;
+  top: auto !important;
+  left: -100% !important;
+}
+
+/* User setting dropdown */
+
+.setting-menu-dropdown > .dropdown-menu {
+  width: 210px;
+  padding: 0;
+  border: 0;
+  box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.24), 0px 9px 18px rgba(0, 0, 0, 0.18);
+}
+.setting-menu-dropdown > .dropdown-menu > .dropdown-item {
+  font-weight: 100;
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+
+.setting-menu-dropdown > .dropdown-menu > .dropdown-header {
+  font-weight: 100;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  font-size: 15px;
+  padding-left: 12px;
+  padding-right: 10px;
+}
+
+.setting-menu-dropdown > .dropdown-menu > .dropdown-divider {
+  margin: 0;
+}
+.setting-menu-dropdown .ui.fitted.toggle.checkbox {
+  width: 24px !important;
+  position: relative;
+  top: 3px;
+}
+.setting-menu-dropdown .ui.toggle.checkbox input {
+  width: 24px !important;
+}
+.setting-menu-dropdown .ui.toggle.checkbox label:before {
+  top: 5px !important;
+  height: 13px !important;
+  width: 32px !important;
+}
+.setting-menu-dropdown .ui.toggle.checkbox input:checked ~ label:after {
+  left: 60% !important;
+}
+.setting-menu-dropdown .user-wrapper{
+  flex: 1;
+}

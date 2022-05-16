@@ -1,0 +1,2 @@
+export const SHOW_ARCHIVAL_MODAL = Symbol("SHOW_ARCHIVAL_MODAL");
+export const HIDE_ARCHIVAL_MODAL = Symbol("HIDE_ARCHIVAL_MODAL");

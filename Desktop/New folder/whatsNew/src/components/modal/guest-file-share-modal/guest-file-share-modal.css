@@ -1,0 +1,37 @@
+.guest-file-share-modal .modal-content {
+  max-width: 560px;
+  /* max-height: 502px; */
+  margin: auto;
+}
+.guest-file-share-modal .modal-header {
+  text-align: center;
+  padding: 40px;
+  border: none;
+}
+.guest-file-share-modal .modal-body {
+  padding: 0px 40px;
+}
+.guest-file-share-modal .modal-footer {
+  padding: 30px 40px 40px 40px;
+}
+.download-btn {
+  width: 480px;
+  height: 40px;
+  color: white;
+  background: #03bd5d;
+  border-radius: 2px;
+  margin: 0px;
+  border: none;
+}
+.email-msg {
+  font-size: 20px;
+  color: #19191a;
+}
+.time-remaining {
+  font-size: 15px;
+  color: #03bd5d;
+  padding-bottom: 40px;
+}
+.invalid-feedback {
+  display: block;
+}

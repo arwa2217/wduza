@@ -1,0 +1,59 @@
+.create-folder-modal > .modal-dialog {
+  max-width: 660px;
+  max-height: 368px;
+}
+.create-folder-modal .modal-content {
+  border: 0;
+  border-radius: 8px;
+}
+.create-folder-modal .modal-header {
+  width: 100%;
+  color: #252534;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 40px 40px 34px;
+  border: none;
+}
+/* .create-folder-modal .modal-body {
+  padding: 0;
+} */
+.create-folder-modal .form-label {
+  font-size: 12px;
+  font-weight: 400;
+  color: #19191a;
+}
+.form-control::-webkit-input-placeholder {
+  color: black !important;
+  opacity: 0.87 !important;
+}
+.create-folder-modal .char-counter-wrapper .form-control {
+  padding-right: 40px !important;
+}
+
+.create-folder-modal .char-counter-wrapper .input-group-prepend {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  z-index: 9;
+  transform: translateY(-50%);
+}
+
+.create-folder-modal .modal-footer {
+  padding: 40px;
+}
+
+.create-folder-modal .modal-footer .back {
+  background: #6d6f73;
+  color: white;
+}
+
+.disabled-save-btn {
+  margin-right: 30px;
+  background: rgba(24, 178, 99, 0.3) !important;
+  border-radius: 2px;
+  color: #ffffff !important;
+}
+
+.active-save-btn {
+  margin-right: 30px;
+}

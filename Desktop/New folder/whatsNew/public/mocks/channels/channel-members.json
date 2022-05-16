@@ -1,0 +1,36 @@
+{
+  "data": [
+    {
+      "userId": "john123456",
+      "timeAdded": 1597659010,
+      "name": "John",
+      "isOwner": true,
+      "isActive": false,
+      "userImg": "https://react.semantic-ui.com/images/avatar/small/elliot.jpg"
+    },
+    {
+      "userId": "john123451",
+      "timeAdded": 1597659010,
+      "name": "Jonsons",
+      "isOwner": false,
+      "isActive": true,
+      "userImg": "https://react.semantic-ui.com/images/avatar/small/elliot.jpg"
+    },
+    {
+      "userId": "john123457",
+      "name": "Johni",
+      "timeAdded": 1597659010,
+      "isOwner": false,
+      "isActive": true,
+      "userImg": "https://react.semantic-ui.com/images/avatar/small/elliot.jpg"
+    },
+    {
+      "userId": "john123458",
+      "name": "Johu",
+      "timeAdded": 1597659010,
+      "isOwner": false,
+      "isActive": false,
+      "userImg": "https://react.semantic-ui.com/images/avatar/small/elliot.jpg"
+    }
+  ]
+}

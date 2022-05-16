@@ -1,0 +1,33 @@
+.post-tag-menu h5 {
+  color: #95979d;
+  font-weight: 100;
+  font-size: 12px;
+  visibility: hidden;
+}
+.post-tag-menu > .dropdown > .dropdown-menu {
+  width: 200px;
+  padding: 20px;
+  z-index: 1071;
+}
+.post-tag-menu > .dropdown > .dropdown-menu > .menu-header {
+  font-size: 12px;
+  font-weight: 400;
+  padding: 0 0 10px;
+  line-height: 1;
+  color: var(--grey__dark);
+  background: var(--white) !important;
+}
+.post-tag-menu .dropdown-content .dropdown-item {
+  padding: 3px 0;
+}
+.post-tag-menu-active {
+  background-color: #ebf4ff;
+}
+
+/* .post-tag-menu:hover {
+  background-color: #ebf4ff;
+}
+
+.post-tag-menu-filter:hover{
+  background-color: #e5faef !important;
+} */

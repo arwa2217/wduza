@@ -1,0 +1,57 @@
+.create-account-modal > .modal-dialog {
+  max-width: 560px;
+  max-height: 736px;
+}
+.create-account-modal .modal-content {
+  border: 0;
+  border-radius: 8px;
+}
+.create-account-modal .modal-header {
+  width: 100%;
+  color: #252534;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 40px 40px 33px;
+  border: none;
+}
+.create-account-modal .modal-body {
+  padding: 0;
+}
+.create-account-modal .form-wrapper {
+  padding: 0px 40px;
+}
+
+.create-account-modal .form-group {
+  margin-bottom: 20px;
+}
+
+.create-account-modal .form-label {
+  font-size: 12px;
+  color: #19191a;
+  margin-bottom: 10px;
+}
+.form-control::-webkit-input-placeholder {
+  color: black !important;
+  opacity: 0.87 !important;
+}
+.cancel-btn {
+  width: 130px;
+  height: 40px;
+  background: #999999;
+  border-radius: 2px;
+  border-style: none;
+}
+
+.create-account-modal .modal-footer {
+  border: none;
+  padding: 40px;
+}
+.create-account-modal .btn-disabled {
+  background: #18b2634d;
+  color: #ffffff;
+}
+
+.save-btn {
+  width: 130px;
+  height: 40px;
+}

@@ -1,0 +1,286 @@
+:root {
+  --top-bar-height: 70px;
+  --tool-bar-height: 40px;
+  --table-header-height: 45px;
+  --table-body-padding: 15px;
+  --bottom-tool-bar-height: 50px;
+  --bottom-bar-height: 15px;
+  --table-padding-top: 8px;
+  --table-padding-left: 20px;
+}
+
+.accountContainer {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.tableContainer {
+  width: 100%;
+  /* height: calc(100% - var(--bottom-tool-bar-height)) !important; */
+}
+
+.tableMenuContainer {
+  width: 100%;
+  /* height: var(--bottom-tool-bar-height) !important; */
+  /* padding-top: 10px; */
+  padding-right: 20px;
+}
+
+.uidButton,
+.registerButton,
+.createButton,
+.importCSV {
+  font-family: Roboto !important;
+  font-weight: normal !important;
+  font-size: 15px !important;
+  border: 0px;
+  float: right;
+  border: none !important;
+  outline: none !important;
+}
+
+.uidButton:active,
+.registerButton:active,
+.createButton:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  border: none !important;
+  outline: none !important;
+}
+
+.importCSV {
+  width: 120px;
+  height: 30px;
+  background-color: #1dc24e;
+  text-align: center;
+  border-top-left-radius: 0.2rem;
+  border-bottom-left-radius: 0.2rem;
+}
+.importCSV:hover {
+  background-color: #1aa142;
+}
+.importCSV label {
+  width: 100%;
+  height: 100%;
+  padding-top: 5px;
+  color: #ffffff;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.importCSV input[type="file"] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.uidButton {
+  width: 120px;
+  height: 30px;
+  color: #ffffff;
+  background-color: #17a2b8;
+  margin-left: -1px;
+}
+.uidButton:hover {
+  background-color: #117483;
+}
+
+.registerButton {
+  width: 100px;
+  height: 30px;
+  color: #000000;
+  background-color: #ffc107;
+  margin-left: -1px;
+}
+.registerButton:hover {
+  background-color: #bb8e06;
+}
+
+.createButton {
+  width: 150px;
+  height: 30px;
+  color: #ffffff;
+  background-color: #58c171;
+  margin-left: -1px;
+  border-top-right-radius: 0.2rem;
+  border-bottom-right-radius: 0.2rem;
+}
+.createButton:hover {
+  background-color: #3a7e4a;
+}
+
+.react-bs-table-container {
+  width: calc(100% - var(--table-padding-left)) !important;
+  height: calc(
+    100vh - var(--top-bar-height) - var(--bottom-tool-bar-height) -
+      var(--bottom-bar-height) - var(--table-padding-top)
+  ) !important;
+  padding-top: var(--table-padding-top) !important;
+  padding-left: var(--table-padding-left) !important;
+  overflow: hidden;
+}
+
+.react-bs-table-tool-bar {
+  width: 100%;
+  height: var(--tool-bar-height);
+}
+
+.react-bs-table {
+  width: 100% !important;
+  height: calc(
+    100vh - var(--top-bar-height) - var(--tool-bar-height) -
+      var(--bottom-tool-bar-height) - var(--bottom-bar-height) -
+      var(--table-padding-top)
+  ) !important;
+}
+
+.react-bs-container-body {
+  width: 100%;
+  /*height: calc(
+    100% - var(--table-header-height) - var(--table-body-padding)
+  ) !important;*/
+  overflow: auto;
+  border-bottom: 1px solid;
+}
+
+.react-bs-container-body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.react-bs-container-body::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+.react-bs-container-body:hover::-webkit-scrollbar-thumb,
+.react-bs-container-body:active::-webkit-scrollbar-thumb,
+.react-bs-container-body:focus::-webkit-scrollbar-thumb,
+.react-bs-container-body:focus-within::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.5);
+}
+
+.react-bs-container-body:hover::-webkit-scrollbar-track,
+.react-bs-container-body:active::-webkit-scrollbar-track,
+.react-bs-container-body:focus::-webkit-scrollbar-track,
+.react-bs-container-body:focus-within::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.react-bs-table-insert-modal {
+  height: 700px;
+  overflow: auto;
+}
+
+.form-control {
+  padding: 0.3rem 0.75rem !important;
+}
+
+.form-text {
+  color: #ff0000 !important;
+  overflow: auto;
+}
+
+.modal-header {
+  display: block;
+}
+.modal-title {
+  margin: 0px;
+}
+
+.edit-text {
+  width: 100%;
+  margin: 0px;
+  text-align: left;
+  color: #000000;
+}
+
+.admin-bar {
+  max-width: calc(100% - 180px);
+  min-width: calc(100% - 400px);
+  display: block;
+  margin-top: 75px;
+  margin-bottom: 15px;
+  margin-right: 20px;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+/* ===============================================
+  Components : Custom Sidebar Table
+==================================================*/
+
+.custom-sidebar-table thead th {
+  border-top: 0;
+  border-bottom: 1px solid #19191a;
+}
+.custom-sidebar-table th,
+.custom-sidebar-table td {
+  padding: 10px 0;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+/* ===============================================
+  Components : Custom Sidebar Forms
+==================================================*/
+
+.custom-sidebar-form .form-group {
+  margin-bottom: 20px;
+}
+.custom-sidebar-form .form-label {
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 1;
+}
+.custom-sidebar-form .form-control {
+  padding: 4px 0 !important;
+  border: none;
+  border-bottom: 1px solid #e9e9e9;
+  border-radius: 0;
+  color: #19191a;
+  font-size: 14px;
+}
+
+.custom-sidebar-form .form-control:disabled,
+.custom-sidebar-form .form-control[readonly] {
+  background-color: transparent;
+  color: #999999;
+}
+
+.custom-form-actions .btn {
+  width: 90px;
+  font-size: 12px;
+  font-weight: 400;
+  border-radius: 2px;
+}
+.custom-form-actions .btn:disabled,
+.custom-form-actions .btn:disabled:hover {
+  border: 1px solid #999999;
+  color: #999999;
+  background-color: transparent;
+}
+
+/* User Status */
+
+.user-status {
+  position: absolute;
+  bottom: 0;
+  right: 12px;
+}
+
+/* .user-status .dropdown-toggle {
+  color: var(--primary);
+} */
+.open-create-owner-modal-disabled {
+  opacity: 0.45;
+  pointer-events: none;
+}
+.open-create-owner-modal-enabled {
+  opacity: 1;
+  cursor: pointer;
+}

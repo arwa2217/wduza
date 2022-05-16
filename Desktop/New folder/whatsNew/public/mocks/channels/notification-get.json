@@ -1,0 +1,71 @@
+{
+  "total": 99,
+  "offset": 0,
+  "count": 15,
+  "notificationList": [
+    {
+      "channelId":2,
+      "type": "POST",
+      "subType": "DELETE",
+      "timeStamp": 1603998048000,
+      "ref": "/post?id=10234&user=abc12",
+      "userId": "abc12",
+      "img": "/user/display/abc12",
+      "state": "READ",
+      "title":"you have got notification first"
+    },
+    {
+      "channelId": 3,
+      "type": "CHANNEL",
+      "subType": "ADD",
+      "timeStamp": 1603998052000,
+      "ref": "/channel?id=as2412vgak1faf212r31",
+      "userId": "abc12",
+      "img": "channel/display-hash",
+      "state": "UNREAD",
+      "title": "you have got notification Second"
+    },
+      {
+        "channelId": 4,
+        "type": "CHANNEL",
+        "subType": "ADD",
+        "timeStamp": 1603998052000,
+        "ref": "/channel?id=as2412vgak1faf212r31",
+        "userId": "abc12",
+        "img": "channel/display-hash",
+        "state": "UNREAD",
+        "title": "you have got notification 3rd"
+      },
+      {
+        "channelId": 5,
+        "type": "CHANNEL",
+        "subType": "ADD",
+        "timeStamp": 1603998052000,
+        "ref": "/channel?id=as2412vgak1faf212r31",
+        "userId": "abc12",
+        "img": "channel/display-hash",
+        "state": "UNREAD",
+        "title": "you have got notification 4th"
+      },
+      {
+      "type": "CHANNEL",
+      "subType": "ADD",
+      "timeStamp": 1603998052000,
+      "ref": "/channel?id=as2412vgak1faf212r31",
+      "userId": "abc12",
+      "img": "channel/display-hash",
+      "state": "UNREAD",
+      "title":"you have got notification 5th"
+    },
+      {
+      "type": "CHANNEL",
+      "subType": "ADD",
+      "timeStamp": 1603998052000,
+      "ref": "/channel?id=as2412vgak1faf212r31",
+      "userId": "abc12",
+      "img": "channel/display-hash",
+      "state": "UNREAD",
+      "title":"you have got notification 6th"
+    }
+  ]
+}

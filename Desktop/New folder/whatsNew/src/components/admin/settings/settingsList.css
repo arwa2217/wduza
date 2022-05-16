@@ -1,0 +1,45 @@
+.setting-list {
+  width: 100%;
+  height: calc(
+    100vh - var(--files-list-top-bar-height) - var(--files-list-bottom-margin)
+  );
+  background-color: #ffffff;
+  border-radius: 8px;
+  position: relative;
+}
+.setting-list-body {
+  width: 100%;
+  height: calc(
+    100vh - var(--files-list-top-bar-height) - var(--files-list-header-height) -
+      var(--files-list-bottom-margin) - 8px
+  );
+  display: block;
+  overflow-x: auto;
+  overflow-y: overlay;
+  position: relative;
+}
+.setting-list-body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.setting-list-body::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+.setting-list-body:hover::-webkit-scrollbar-thumb,
+.setting-list-body:active::-webkit-scrollbar-thumb,
+.setting-list-body:focus::-webkit-scrollbar-thumb,
+.setting-list-body:focus-within::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.5);
+}
+
+.setting-list-body:hover::-webkit-scrollbar-track,
+.setting-list-body:active::-webkit-scrollbar-track,
+.setting-list-body:focus::-webkit-scrollbar-track,
+.setting-list-body:focus-within::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.main-setting-area .message-tab{
+  width: calc(100% - 400px);
+  margin-top: 70px;
+}

@@ -1,0 +1,34 @@
+.add-collection-modal .modal-dialog{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    margin-left: -200px;
+    margin-top: -200px;
+    min-width: 660px;
+}
+.add-collection-modal .collection-modal-title{
+    color : #252534;
+    font-size: 20px;
+    line-height: 100%;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.add-collection-modal strong{
+    display: none;
+}
+.add-collection-modal .form-label{
+    padding-bottom: 10px;
+    font-size: 12px;
+    line-height: 100%;
+    color: #19191A;
+}
+.add-collection-modal input{
+    height: 40px;
+}
+.add-collection-modal .add-collection-button button{
+    height: 40px;
+    min-width: 184px;
+    font-size: 16px;
+    color: #ffffff;
+
+}
